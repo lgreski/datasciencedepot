@@ -1,0 +1,26 @@
+---
+title: "careers-unfamiliarDomainQuestions"
+author: "Len Greski"
+date: "4/1/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+One way to handle topics that you have no real world experience with is to respond with questions about the domain, given the major steps in a data science project:
+
+1. Collect & clean the data
+2. Conduct exploratory data analysis to understand the basic features of the 3. data
+4. Identify hypotheses to test, and/or variables to predict
+5. Develop inferential and/or predictive models
+6. Make inferences / draw conclusions
+
+If the project requires embedding the models in some type of production process (i.e. deciding what products to upsell on an e-commerce website), the following steps are also required.
+
+7. Embed the models into production software applications
+8. Test the runtime performance at scale, to ensure prediction algorithms run at "internet speed"
+9. Build the underlying processes to store and track versions of models, retrain the models, and embed updated models into the production software
+10. Build the underlying processes to track the purchased and/or open source software so you can reproduce the predictions done at any point in time (e.g. versions of R, and all packages like caret, randomForest, etc.) 
+11. Develop the operational processes to monitor and maintain the applications that have model-based predictive algorithms when they're being used by customers / end users.
