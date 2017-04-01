@@ -1,0 +1,27 @@
+---
+title: "Data Science Depot: Home"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Data Science Depot is a collection of data science articles I've written as part of my participation in the Data Science Community on Coursera.org.
+
+## Data Science Careers
+
+Articles in this section cover responses to community members' questions about how to start or grow a career in Data Science.
+
+### Interviewing Techniques
+
+1. [Answering Questions about an Unfamiliar Domain](http://bit.ly/2oKYQZS)
+
+## Johns Hopkins Data Science Specialization
+
+Articles in this section are related to the 10 course Data Science Specialiazation that is offered by Johns Hopkins University via Coursera. 
+
+**this section under construction...**
+
+
