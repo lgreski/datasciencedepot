@@ -80,6 +80,7 @@ The next set of articles includes general commentary about the course, R program
 4. [Assignment 1: A More Elegant Solution](http://bit.ly/2kwBBlK)
 4. [Assignment 2: Demystifying makeVector](http://bit.ly/2bTXXfq)
 1. [Assignment 2: makeCacheMatrix as an Object](http://bit.ly/2byUe4e)
+4. [Assignment 2: Using Github Desktop](http://bit.ly/2udIoFf)
 2. [Assignment 2: Grading the SHA-1 Hash Code](http://bit.ly/2iUWoB6)
 3. [Assignment 3: Functions to Sort Data Frames](http://bit.ly/2dxItzw)
 
@@ -90,6 +91,7 @@ The next set of articles includes general commentary about the course, R program
 3. [Creative Use of R: Downloading Course Lectures](http://bit.ly/2bGlI7R) Article illustrating how to use R to automate the download of lectures from *Data Science Specialization* courses, such as *R Programming*. Techniques used in this article are helpful to make research reproducible, as required for courses like *Getting and Cleaning Data* and *Reproducible Research*.
 4. [How to Upgrade R without Losing Your Packages](http://bit.ly/2ejS8ox) article by Kris Eberwein on datascienceriot.com that includes code to save your list of packages to an rds file, and reinstall any packages that don't make it through the upgrade process.
 5. [Common R Mistakes: Overwriting R Functions with Output Variables](http://bit.ly/2i3gmoA)  
+6. [R Programming Cheat Sheet](http://bit.ly/2rwY4CD) Based on content from *R for Everyone* by Jared Lander. 
 
 ### Interesting R News and Blog Articles
 
@@ -111,6 +113,10 @@ The next set of articles includes general commentary about the course, R program
 1. [Tidy Data](http://bit.ly/2nyw5Ci) Hadley Wickham's paper on Tidy Data, required reading for the course project. 
 2. [data.table Github Wiki](http://bit.ly/2og7rDK) Repository for `data.table` package, including video. 
 3. [Tutorial: Downloading Files](http://bit.ly/2iP2suj) Illustrates various ways of downloading files, including binary and text files. 
+
+## Course 4: Exploratory Data Analysis
+
+1. [Assignment 1: Reading a Subset of Raw Data](http://bit.ly/2oAHoqI)
 
 
 ## Course 5: Reproducible Research
@@ -156,7 +162,8 @@ The next set of articles includes general commentary about the course, R program
 ## Course 10: Capstone
 1. [Speech and Language Processing, 3rd Edition](https://web.stanford.edu/~jurafsky/slp3/) Working version of Jurafsky, et. al. book on natural language processing whose content on n-grams is helpful for the capstone.
 2. [n-gram Computations and Computer Capacity](http://bit.ly/2couvxh) Explains the amount of memory required to convert the text files for the course project into n-grams, using the <strong>quanteda</strong> package.
+3. [Capstone Strategy](http://bit.ly/2rGcgc6) Describes a general strategy to get through the Capstone: use the simplest approaches possible.
+4. [Choosing a Text Analysis Package](http://bit.ly/2qagsPa) Reviews pros and cons of various R packages used for natural language processing, in the context of requirements for the Capstone project. 
 
 ## Content for Community Mentors
 1. [Tips for New Community Mentors](http://bit.ly/2bZJniM) A list of tips for new mentors supporting the *Data Science Specialization*, ranging from when to direct students to paid / professional resources such as the *Coursera Learner Help Center*, to how to optimize the value of content that is posted by mentors.
-
