@@ -26,6 +26,11 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 2. [2016 Paper: Improving Management Science -- Problems and Solutions](http://bit.ly/2ofV27c) Full length version of the paper discussed in the above presentation. PDF version of the paper is also available on researchgate.net. Stored here because these references have a tendency to disappear from the internet over time.
 3. [Guidelines for Science: Checklist](http://bit.ly/2pQQUuB) Checklist that can be used to evaluate whether a research paper is truly science, or advocacy disguised as science. 
 
+## Future of Data Analysis / John Tukey Retrospective
+
+1. [The Future of Data Analysis](http://bit.ly/2uC9atX) by John Tukey, 1962 paper where he challenges statisticians to move away from ever more complicated mathematics to tackle data analysis problems in more realistic ways. 
+2. [50 Years of Data Science](http://bit.ly/2tKcaQu) by David Donoho, a 2015 retrospective on John Tukey's 1962 paper. 
+
 **this section under construction...**
 
 # Johns Hopkins Data Science Specialization
