@@ -31,11 +31,15 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 1. [The Future of Data Analysis](http://bit.ly/2uC9atX) by John Tukey, 1962 paper where he challenges statisticians to move away from ever more complicated mathematics to tackle data analysis problems in more realistic ways. 
 2. [50 Years of Data Science](http://bit.ly/2tKcaQu) by David Donoho, a 2015 retrospective on John Tukey's 1962 paper. 
 
-**this section under construction...**
+
+## Statistical Methods
+
+1. [Statistical Methods in Psychology Journals](http://bit.ly/2fciQWx) Classic 1999  article by [Leland Wilkinson](http://bit.ly/2fciQWx) and the Task Force on Statistical Inference for the American Psychology Association. 
+2. [Ordinal Independent Variables in Linear Regression](http://bit.ly/2fd9f1E) Article by Richard Williams at the University of Notre Dame, making the argument to treat ordinal variables as continuous unless the analysis of linear effects indicates they should be treated as nominal level of measurement. 
 
 # Johns Hopkins Data Science Specialization
 
-Articles in this section are related to the 10 course Data Science Specialiazation that is offered by Johns Hopkins University via Coursera.
+Articles in this section are related to the 10 course Data Science Specialiazation that is offered by Johns Hopkins University via Coursera. An analysis of the specialization, [The democratization of data science education](http://bit.ly/2y6ePGy), was published during the summer of 2017. 
 
 ## Course 1: Data Scientist's Toolbox
 
