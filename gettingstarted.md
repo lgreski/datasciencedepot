@@ -65,7 +65,6 @@ The most important thing a person can do to enhance her/his career prospects is 
 </td>
 <td>Define a market opportunity for a data science powered application, including one time costs, ongoing costs, and benefits over a 3 - 5 year period. Manage the implementation of the data science powered application to a production deployment, manage its operation and track benefits to ensure they meet or exceed originally estimated values. Add or modify deployed capabilities to increase generation of benefits relative to costs over the lifespan of the application.
 </td></tr>
-
 </table>
 
 Many of the data science curricula in universities are focused on the first two areas:
