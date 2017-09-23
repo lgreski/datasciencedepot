@@ -17,7 +17,7 @@ Articles in this section cover responses to community members' questions about h
 Content in this section is related to Armstrong (2016) et. al. paper and presentation helping people distinguish true "science" from political / policy advocacy. 
 
 1. [2016 Presentation: Improving Management Science -- Problems and Solutions](http://bit.ly/2pPIv7A) PDF version of presentation given at 2016 Marketing conference in Hong Kong.  
-2. [2016 Paper: Improving Management Science -- Problems and Solutions](http://bit.ly/2ofV27c) Full length version of the paper discussed in the above presentation. PDF version of the paper is also available on researchgate.net. Stored here because these references have a tendency to disappear from the internet over time.
+2. [2016 Paper: Improving Management Science -- Problems and Solutions](http://bit.ly/2ofV27c) Full length version of the paper discussed in the above presentation. PDF version of the paper is also available on [researchgate.net](https://www.researchgate.net). Stored here because these references have a tendency to disappear from the internet over time.
 3. [Guidelines for Science: Checklist](http://bit.ly/2pQQUuB) Checklist that can be used to evaluate whether a research paper is truly science, or advocacy disguised as science. 
 
 ## Future of Data Analysis / John Tukey Retrospective
