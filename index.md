@@ -1,4 +1,3 @@
-# Data Science Depot: Home
 
 
 
