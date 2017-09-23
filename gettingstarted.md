@@ -23,7 +23,7 @@ The most important thing a person can do to enhance her/his career prospects is 
 **Answer:** A well-rounded data scientist in a corporate environment will have enough breadth of skill to contribute to a team in at least three of the following eight areas, including a credible story in the first two skill areas.
 
 |Area|Description|
-|----|-----------|
+|---------|-----------|
 |1. Collection & Analysis|The ability to acquire data from a variety of sources, manipulate it to remove or mitigate impurities (e.g. missing data), and transform it into a format suitable model building|
 |2. Modeling|The ability to develop hypotheses, select algorithms based on the characteristics of the data available, and build highly accurate predictive models.|
 |3. Applications|Embed predictive models into systems that are used by customers / end users on an operational basis (e.g. recommending cross-sell up-sell products on an e-commerce website), including the ability to generate predictions at high volume in less than 500 milliseconds.|
