@@ -2,3 +2,17 @@ theme: jekyll-theme-slate
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  
+title: Data Science Depot
+
+description: Len Greski's articles and associated reference content for data science
+
+twitter:
+   username: lgreski
+
+social:
+   name: Len Greski
+   links: 
+     - http://bit.ly/2fIKNCg
+     - http://bit.ly/2wNZ5Hu
