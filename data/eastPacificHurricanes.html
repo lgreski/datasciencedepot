@@ -1,0 +1,2927 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js "> <!--<![endif]-->
+	<head>
+		<title>Hurricane Archive | Weather Underground</title>
+		<link href="//icons.wxug.com/" rel="dns-prefetch" />
+		<link href="//api-ak.wunderground.com/" rel="dns-prefetch" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+<meta http-equiv="cleartype" content="on">
+		<meta name="description" content="Weather Underground provides local & long range Weather Forecast, weather reports, maps & tropical weather conditions for locations worldwide." />
+		<meta name="keywords" content="Weather, Weather Underground, Hurricane Archive, forecasts, current conditions, rain, snow, hurricane, tornado, storm, thunderstorm, tropical storm, wundermap, ski conditions, ski report, surfing, marine, aviation, photographs, photos, severe weather" />
+<meta name="apple-itunes-app" content="app-id=486154808, affiliate-data=at=1010lrYB&ct=website_wu" />
+<meta name="fb-app-id" content="325331260891611" />
+<meta name="fb-channel-url" content="//www.wunderground.com/php/lib/fb_sdk/channel.php" />
+<meta name="wui-member-logged-in" content="false" />
+<meta name="com.silverpop.brandeddomains" content="www.pages02.net,www.wunderground.com" />
+		<meta http-equiv="Refresh" content="300;URL=/hurricane/hurrarchive.asp?region=ep&MR=1" />
+		<link rel="canonical" href="https://www.wunderground.com/hurricane/hurrarchive.asp?region=ep" />
+		<link rel="alternate" type="application/rss+xml" title="Tropical Advisories from Weather Underground" href="https://rss.wunderground.com/auto/rss_full/tropical/index.xml" />
+	<link rel="apple-touch-icon" href="//icons.wxug.com/favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="//icons.wxug.com/favicon.png"/>
+	<link rel="stylesheet" href="//icons.wxug.com/css/wu4/core.css?v=2017041301">
+	<link rel="stylesheet" href="//icons.wxug.com/css/wu4/omnibus.css?v=2017080701">
+	<link rel="stylesheet" href="//icons.wxug.com/css/wu4/tropical.css?v=2015102601" />
+	<script src="//icons.wxug.com/scripts/modernizr/2.8.2/modernizr.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script src="//icons.wxug.com/scripts/wui-js/2.0.3/wui.min.js"></script>
+		<script src="//icons.wxug.com/scripts/wui.login.min.js?v=1.3.18"></script>
+		<script type="text/javascript">
+	if (typeof Object.assign != 'function') {
+	 Object.assign = function(target) {
+	 'use strict';
+	 if (target == null) {
+	 throw new TypeError('Cannot convert undefined or null to object');
+	 }
+	 target = Object(target);
+	 for (var index = 1; index < arguments.length; index++) {
+	      var source = arguments[index];
+	      if (source != null) {
+	        for (var key in source) {
+	          if (Object.prototype.hasOwnProperty.call(source, key)) {
+	            target[key] = source[key];
+	          }
+	        }
+	      }
+	    }
+	    return target;
+	  };
+	}
+
+  if (window.innerWidth >= 1025) {
+		var ad_unit = 'web_wunderground_us/weather/severe/tropical';
+		var ad_plat = 'wund';
+		var wfx_id = 'B1CC73';
+		var pos1 = 'wx_ws';
+		var pos1Sizes = [[728,90],[728,91],[970,90],[970,250]];
+		var pos2Id = 'div-gpt-ad-615639597871654305-2';
+		var pos2 = 'wx_300sm';
+		var pos2Sizes = [[300,250],[300,251]];
+		var pos3Id = 'div-gpt-ad-615639597871654305-3';
+		var pos3 = 'wx_mid300';
+		var pos3Sizes = [[300,250],[300,251]];
+		var pos4 = 'wx_botldr';
+		var pos4Sizes = [[728,90],[728,91]];
+	}
+  else if (window.innerWidth >= 768) {
+		var ad_unit = 'tablet_wunderground_us/weather/severe/tropical';
+		var ad_plat = 'wund_tab';
+		var wfx_id = 'B1CC73';
+		var pos1 = 'wx_ws';
+		var pos1Sizes = [[728,90],[728,91],[728,92]];
+		var pos2Id = 'div-gpt-ad-615639597871654305-2';
+		var pos2 = 'wx_300sm';
+		var pos2Sizes = [[300,250],[300,251]];
+		var pos3Id = 'div-gpt-ad-615639597871654305-3';
+		var pos3 = 'wx_mid300';
+		var pos3Sizes = [[300,250],[300,251]];
+		var pos4 = 'wx_botldr';
+		var pos4Sizes = [[728,90],[728,91],[728,92]];
+	}
+	else {
+		var adLimitMobile = 5;
+		var ad_unit = 'mobile_smart_wunderground_us/weather/severe/tropical';
+		var ad_plat = 'wund_mw';
+		var wfx_id = '5B3739';
+		var pos1 = 'mw_p1';
+		var pos1Sizes = [[320,50],[320,51]];
+		var pos2Id = 'div-gpt-ad-615639597871654305-2';
+		var pos2 = 'mw_p2';
+		var pos2Sizes = [[300,250],[300,251]];
+		var pos3Id = 'div-gpt-ad-615639597871654305-3';
+		var pos3 = 'mw_p3';
+		var pos3Sizes = [[300,250],[300,251]];
+		var pos4 = 'mw_p4';
+		var pos4Sizes = [[300,250],[300,251]];
+	}
+  window.Adomik = window.Adomik || {};
+  Adomik.randomAdGroup = function() {
+  var rand = Math.random();
+  switch (false) {
+  case !(rand < 0.09): return "ad_ex" + (Math.floor(100 * rand));
+      case !(rand < 0.10): return "ad_bc";
+      default: return "ad_opt";
+    }
+  };
+
+	var isEdge = navigator.userAgent.indexOf('Edge') >=0;
+	var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+	var isFirefox = typeof InstallTrigger !== 'undefined';
+	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+	var isChrome = !!window.chrome && !isOpera && !isEdge;
+	var isIE = /*@cc_on!@*/false || !!document.documentMode;
+	var browser_type = null;
+	if (isFirefox) {
+		browser_type = 'wuff';
+	} else if (isSafari) {
+		browser_type = 'wusafari';
+	} else if (isChrome) {
+		browser_type = 'wuchrome'
+	} else if (isIE) {
+		browser_type = 'wuie';
+	} else if (isEdge) {
+		browser_type = 'wuedge';
+	}
+</script>
+<script src="//icons.wxug.com/scripts/ads-sdk/index.min.js?v=1.1" async></script>
+<script type="text/javascript">
+  // common metadata section
+  var refurl = {};
+  var adZone = '';
+	var locale = 'en-US';
+  var thirdParties = [{"id":"wfxtg","acctid":wfx_id,"timeout":500,"params":{"activeLocation":""},"async":true},{"id":"criteo","netId":1458,"timeout":500,"async":true},{"id":"amznslots","amznId":1004,"async":true,"timeout":500,"iso":true},{"id":"lotame","clientId":2216,"async":true,"timeout":500}] || [];
+  var custParams = {
+	 "locale":"en-us",
+	 "lang":"EN",
+	 "dma":"",
+	 "lat":"",
+	 "lon":"",
+	 "loc":"",
+	 "zip":"",
+	 "ct":"",
+	 "st":"",
+	 "cnty":"",
+	 "cc":"",
+	 "countryName":""
+	};
+  // common part for queue definition
+  window.TWC = window.TWC || {};
+  window.TWC.adUtils = window.TWC.adUtils || {};
+  window.twcMoney = window.twcMoney || {};
+  window.twcMoney.cmd = window.twcMoney.cmd || [];
+</script>
+<script type="text/javascript">
+	var preparePositions = [];
+	 preparePositions.push({
+  "id": "WX_WindowShade",
+  "pos": pos1,
+  "sizes": pos1Sizes
+		});
+ 	var adNum = 2;
+		if ((ad_plat === 'wund') || (ad_plat === 'wund_tab') || (adNum <= adLimitMobile && ad_plat === 'wund_mw')) {
+			preparePositions.push({
+				"id": pos2Id,
+				"pos": pos2,
+				"sizes": pos2Sizes
+			});
+		}
+		
+		adNum = 3;
+	
+		if ((ad_plat === 'wund') || (ad_plat === 'wund_tab') || (adNum <= adLimitMobile && ad_plat === 'wund_mw')) {
+			preparePositions.push({
+				"id": pos3Id,
+				"pos": pos3,
+				"sizes": pos3Sizes
+			});
+		}
+		
+		adNum = 4;
+	
+
+	
+		if ((ad_plat === 'wund') || (ad_plat === 'wund_tab') || (adNum <= adLimitMobile && ad_plat === 'wund_mw')) {
+  	    	preparePositions.push({
+			    "id": "div-gpt-ad-615639597871654305-bot",
+			    "pos": pos4,
+			    "sizes": pos4Sizes
+			});
+		}
+	
+
+  var customAdConfig = {
+    preparePositions: preparePositions,
+    getAdUnit: {
+    	adUnit: ad_unit,
+      networkCode: '/7646'
+    },
+    getCustParams: {
+			
+			
+				excl: 'wund',
+			
+      plat: ad_plat,
+			ad_g : Adomik.randomAdGroup(),
+			preempt : "y"
+    },
+
+    getClientBrowser: browser_type
+  };
+
+  var start = window.performance.now();
+
+  window.twcMoney.cmd.push(function() {
+    window.twcMoney
+      .moneyTree({ useLightSpeed: true, locale: locale, lsScriptUrl: '//js-sec.indexww.com/ht/p/182970-203800257961387.js' })
+      .start({
+        adZone: adZone,
+        locale: locale,
+        thirdParties: thirdParties,
+        custParams: custParams,
+        pageAdPositions: [],
+
+        staticAdPositions: [true],
+        processStatic: true,
+        adConfig: customAdConfig
+      });
+  });
+</script>
+	</head>
+	<body class="standard Tropical-HurricaneArchive severe-weather  ">
+		<div id="content-wrap" class="relative right-side-nav">
+		<nav id="feature-menu-mobile" class="sidebar">
+  <div class="sidebar-wrapper">
+  <ul class="side-main-nav nav-bar">
+  <li>
+  <a href="/login.asp">Log in</a>
+  </li>
+  <li>
+  <a href="/member/registration">Join</a>
+  </li>
+  </a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);"></a></li>
+  <li class="sidebar-heading no-link">
+	 Hello&#33;
+</li>
+<li><a href="/member/membersettings.html">Member Settings</a></li>
+<li><a href="/email/mainmenu.php">My Email Alerts</a></li>
+<li><a href="/webcams/signup.html" class="brBot3">My Webcams</a></li>
+<li><a href="/email/logout.php">Sign Out</a></li>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="#">
+  <i class="fi-widget sidebar-icon"></i> Settings
+  </a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Settings</a></li>
+  <ul class="button-group toggle radius">
+  <li><a onclick="wui.SetUnitToEnglish()" title="Switch to English" class="button selected">&deg;F</a></li>
+  <li><a onclick="wui.SetUnitToMetric()" title="Switch to Metric" class="button ">&deg;C</a></li>
+</ul>
+<ul class="button-group radius toggle compact forecast-type">
+  <li><a href="/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=1&referer=%2fhurricane%2fhurrarchive%2easp%3fregion%3dep" title="Use BestForecast" class="button selected" onclick="_gaq.push(['_trackEvent', 'Forecast Toggle', 'Click', 'BestForecast']);">BestForecast</a></li>
+  <li><a href="/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=0&referer=%2fhurricane%2fhurrarchive%2easp%3fregion%3dep" title="Use NWS" class="button " onclick="_gaq.push(['_trackEvent', 'Forecast Toggle', 'Click', 'NWS']);">NWS</a></li>
+</ul>
+<p><a href="/about/data.asp#differences">What's the difference?</a></p>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="maps">Maps & Radar</a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Maps & Radar</a></li>
+  <li><a href="/weather-radar/" title="Radar Maps">Radar Maps</a></li>
+  <li><a href="/wundermap/?radar=1">Interactive Radar</a></li>
+  <li><a href="/wundermap/?sat=1">Interactive Satellite</a></li>
+  <li><a href="/wundermap/" title="WunderMap">WunderMap</a></li>
+  <li><a href="/maps/" title="Current Conditions Maps">Current Conditions Maps</a></li>
+  <li><a href="/ndfdimage/viewimage/" title="Forecast Maps">Forecast Maps</a></li>
+  <li><a href="/maps/catalog/" title="All Maps Catalog">Maps Catalog</a></li>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="severe">Severe Weather</a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Severe Weather</a></li>
+  <li><a href="/severe.asp" title="U.S. Severe Weather Map">U.S. Severe Weather Map</a></li>
+  <li><a href="/severe/europe.asp" title="Europe Severe Weather Map">Europe Severe Weather Map</a></li>
+  <li><a href="/hurricane/" title="Hurricane &amp; Tropical Cyclones">Hurricane &amp; Tropical Cyclones</a></li>
+  <li><a href="/severeconvective.asp" title="Convective Outlook">Convective Outlook</a></li>
+  <li><a href="/wundermap?fire=1" title="Wildfires">Wildfires</a></li>
+  <li><a href="/prepare/" title="Preparedness">Preparedness</a></li>
+  <li><a href="/email/emailsettings.asp" title="Weather Alerts">Weather Alerts</a></li>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="news">News &amp; Blogs<span class="new-badge-text-only live twiw">LIVE!</span></a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">News &amp; Blogs</a></li>
+  <li><a href="/cat6" title="Category 6&trade;">Category 6&trade;</a></li>
+  <li><a href="/blog/" title="Blog Archive">Blog Archive</a></li>
+  <li><a href="/news/" title="Recent News Stories">Recent News Stories</a></li>
+  <li><a href="/weather-infographics/" title="Weather Infographics">Weather Infographics</a></li>
+  <li><a href="/weather-posters/" title="Weather Posters">Weather Posters</a></li>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="photos">Photos &amp; Video</a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Photos &amp; Video</a></li>
+  <li><a href="/wximage/" title="WunderPhotos">WunderPhotos</a></li>
+  <li><a href="/webcams/" title="Webcams">Webcams</a></li>
+  <li><a href="/video/" title="Videos">Videos</a></li>
+  <li><a href="/wutv/" title="WUTV">WUTV</a></li>
+  </ul>
+  </li>
+  <li><a href="/history/" class="history" title="Historical Weather">Historical Weather</a></li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="activities">Activities</a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Activities</a></li>
+  <li><a href="/ski/" title="Ski &amp; Snow Reports">Ski &amp; Snow Reports</a></li>
+  <li><a href="/marine-weather/" title="Marine Weather">Marine Weather</a></li>
+  </ul>
+  </li>
+  <li>
+  <a href="/sitemap/" class="browse">Site Map</a>
+  </li>
+  </ul>
+  <ul class="sidebar-footer">
+  <li><a href="/weatherstation/buyingguide.asp">Buy a Weather Station</a></li>
+  <li><a href="/personal-weather-station/signup">Add Weather Station</a></li>
+  <li><a href="/weatherstation/overview.asp">Weather Station Network</a></li>
+  <li><a href="/download" title="Weather Underground Mobile Apps">Mobile Apps</a></li>
+  <li><a href="/weather/api/" title="Weather API for Developers">Weather API for Developers</a></li>
+  </ul>
+  </div>
+</nav>
+		<div class="header-ad-wrap">
+	<center class="clearfix">
+		<div id="WX_WindowShade"></div>
+	</center>
+		</div>
+		<nav class="topbar">
+	<div id="global-header" class="new-wu">
+		<a href="javascript:void(0);" id="sidebarButton" class="right-off-canvas-toggle"><span class="fi-list-wrap"><i class="fi-list"></i></span></a>
+		<a href="/" id="header-logo" class="logo" title="Weather Underground (10.226.226.44)"></a>
+		<nav id="feature-menu" class="feature-menu">
+  <ul class="menu-list">
+  <li>
+  <label class="maps">Maps & Radar</label>
+  <ul class="menu-list">
+  <li><a href="/weather-radar/" title="Radar Maps">Radar Maps</a></li>
+  <li><a href="/wundermap/?radar=1">Interactive Radar</a></li>
+  <li><a href="/wundermap/?sat=1">Interactive Satellite</a></li>
+  <li><a href="/wundermap/" title="WunderMap">WunderMap</a></li>
+  <li><a href="/maps/" title="Current Conditions Maps">Current Conditions Maps</a></li>
+  <li><a href="/ndfdimage/viewimage/" title="Forecast Maps">Forecast Maps</a></li>
+  <li><a href="/maps/catalog/" title="All Maps Catalog">Maps Catalog</a></li>
+  </ul>
+  </li>
+  <li>
+  <label class="severe">Severe Weather</label>
+  <ul class="menu-list">
+  <li><a href="/severe.asp" title="U.S. Severe Weather Map">U.S. Severe Weather Map</a></li>
+  <li><a href="/severe/europe.asp" title="Europe Severe Weather Map">Europe Severe Weather Map</a></li>
+  <li><a href="/hurricane/" title="Hurricane &amp; Tropical Cyclones">Hurricane &amp; Tropical Cyclones</a></li>
+  <li><a href="/severeconvective.asp" title="Convective Outlook">Convective Outlook</a></li>
+  <li><a href="/wundermap?fire=1" title="Wildfires">Wildfires</a></li>
+  <li><a href="/prepare/" title="Preparedness">Preparedness</a></li>
+  <li><a href="/weather-alerts/" title="Weather Alerts">Email Alerts</a></li>
+  </ul>
+  </li>
+  <li>
+  <label class="news">News &amp; Blogs<span class="new-badge-text-only live twiw">LIVE!</span></label>
+  <ul class="menu-list">
+  <li><a href="/cat6" title="Category 6&trade;">Category 6&trade;</a></li>
+  <li><a href="/blog/" title="Blog Archive">Blog Archive</a></li>
+  <li><a href="/news/" title="Recent News Stories">Recent News Stories</a></li>
+  <li><a href="/weather-infographics/" title="Weather Infographics">Weather Infographics</a></li>
+  <li><a href="/weather-posters/" title="Weather Posters">Weather Posters</a></li>
+  </ul>
+  </li>
+  <li>
+  <label class="photos">Photos &amp; Video</label>
+  <ul class="menu-list">
+  <li><a href="/wximage/">WunderPhotos</a></li>
+  <li><a href="/webcams/">Webcams</a></li>
+  <li><a href="/video/">Videos</a></li>
+  <li><a href="/wutv/">WUTV</a></li>
+  </ul>
+  </li>
+  <li>
+  <label class="activities">Activities</label>
+  <ul class="menu-list">
+  <li><a href="/ski/">Ski &amp; Snow Reports</a></li>
+  <li><a href="/marine-weather/">Marine Weather</a></li>
+  </ul>
+  </li>
+  <li><a href="/weatherstation/buyingguide.asp">Buy a Weather Station</a></li>
+  <li><a href="/personal-weather-station/signup">Add Weather Station</a></li>
+  <li><a href="/weatherstation/overview.asp">Weather Station Network</a></li>
+  <li><a href="/history/">Historical Weather</a></li>
+  <li><a href="http://wundergroundstore.com">WU Store</a></li>
+  <li><a href="/download">Mobile Apps</a></li>
+  <li><a href="/forecast-flyer">Daily Forecast Flyer</a></li>
+  <li><a href="/weather/api/">Weather API for Developers</a></li>
+  <li><a href="/sitemap/">Site Map</a></li>
+  </ul>
+</nav>
+		<div id="wuForm-contain" class="wu-form-contain">
+		<form action="/cgi-bin/findweather/getForecast" name="wxsearch" id="wuForm" class="wu-form ui-front">
+		<div id="wuSearch-contain" class="wu-search-contain">
+		<input type="search" name="query" value="" id="wuSearch" class="wu-search" placeholder="Search Locations" data-autoinitialize="true" />
+		<span class="close-search">
+		<i class="fi-x-circle"></i>
+		</span>
+		<span class="geolocate-wrap">
+		<i class="fi-target-two"></i>
+		</span>
+		</div>
+		</form>
+		</div>
+		<div class="hide-for-small">
+		<p class="wu-account" id="wuAccount"><a id="wu-member" href="/login.asp">Log in</a> | <a id="wu-member" href="/member/registration">Join</a></p>
+		</a>
+		<a href="#" data-dropdown="wuSettings-quick" id="wuSettings" class="wu-settings">
+		<i class="fi-widget"></i>
+		</a>
+		</div>
+		<div id="wuSettings-quick" data-dropdown-content class="wu-settings-quick f-dropdown content" >
+		<ul class="button-group toggle radius">
+  <li><a onclick="wui.SetUnitToEnglish()" title="Switch to English" class="button selected">&deg;F</a></li>
+  <li><a onclick="wui.SetUnitToMetric()" title="Switch to Metric" class="button ">&deg;C</a></li>
+</ul>
+<ul class="button-group radius toggle compact forecast-type">
+  <li><a href="/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=1&referer=%2fhurricane%2fhurrarchive%2easp%3fregion%3dep" title="Use BestForecast" class="button selected" onclick="_gaq.push(['_trackEvent', 'Forecast Toggle', 'Click', 'BestForecast']);">BestForecast</a></li>
+  <li><a href="/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=0&referer=%2fhurricane%2fhurrarchive%2easp%3fregion%3dep" title="Use NWS" class="button " onclick="_gaq.push(['_trackEvent', 'Forecast Toggle', 'Click', 'NWS']);">NWS</a></li>
+</ul>
+<p><a href="/about/data.asp#differences">What's the difference?</a></p>
+		<a href="/member/membersettings.html?page=prefs" id="wuSettings-more" class="wu-settings-more">More Settings</a>
+		</div>
+	</div>
+</nav>
+<script type="text/template" id="autocomplete_item_template">
+	<% var defcon = (item.condition && item.condition.defcon) || 0; %>
+	<% if (item.task=='geolocate') { %>
+		<li class="geolocate-button"><div class="mimic-a"><span class="location-icon"><i class="fi-target-two"></i></span><%= item.name %></div></li>
+	<% } else if (item.task=='headerGeolocate') { %>
+		<li class="ui-autocomplete-geolocate"><div class="mimic-a menu-geolocate"><i class="fi-target-two"></i><%= item.name %></div></li>
+	<% } else { %>
+		<li class="needsclick needsfocus <% if (isCity) { %>is-city<% } %><% if (isFav) { %> is-fav<% } %><% if (hasConds && item.condition.severe) { %> is-severe defcon-<%= defcon %><% } %><% if (hasConds) { %> has-conds<% } %>">
+		<a class="needsclick needsfocus">
+		<% if (item.label) { %><span class="needsclick needsfocus city-name"><%= item.label %> <i class="needsclick needsfocus fi-<% if (defcon > 4) { %>info<% } else { %>alert<% } %>"></i></span><% } %>
+		<% if (hasConds) { %>
+		<span class="needsclick needsfocus city-conds">
+		<%= item.condition.temperature %> &deg;F <%= item.condition.condition %>
+		</span>
+		<span class="needsclick needsfocus cond-icon-touch cond-set-<%= item.condition.iconPref %> cond-<%= item.condition.icon %>"></span>
+		<% } %>
+		<% if (isCity) { %><span class="needsclick needsfocus city-star" title="<% if (isFav) { %>Remove From<% } else { %>Add To<% } %> Favorite Cities"></span><% } %>
+		</a>
+		</li>
+	<% } %>
+</script>
+		<div id="inner-wrap">
+		<div id="header-alert-bar" class="loading-bar"></div>
+		<div class="favs-wrapper">
+	<div id="favorites" class="favorites ">
+		<div class="favorites-bar"></div>
+		<input type="button" class="favorites-list-toggle" value="&#x25BC;" data-dropdown="favorites-list" />
+		<div class="favorites-list f-dropdown" data-dropdown-content id="favorites-list"></div>
+	</div>
+</div>
+<script type="text/template" id="favorites-city-template">
+	<%
+		var options = options || {};
+		var isCity = true;
+		var isFav = wui.favorites.is(city.zmw);
+		var isHome = ''==city.zmw?true:false;
+		//hasConds: (options.showConditions && !!(item.condition))
+		var hasConds = !!(city.condition);
+		var defcon = hasConds && city.condition.defcon ? city.condition.defcon : 5;
+	%>
+	<% if (city.zmw) { %>
+		<li class="<% if (isCity) { %>is-city<% } %><% if (isFav) { %> is-fav<% } %><% if (hasConds && city.condition.severe) { %> is-severe defcon-<%= defcon %><% } %><% if (hasConds) { %> has-conds<% } %>" <% if (isCity) { %>data-zmw="<%= city.zmw %>" data-cityName="<%= city.name %>" <% } %>>
+		<% if (options.label) { %><label><%= options.label %></label><% } %>
+		<a href="<%= city.url %><% if (city.zip != 00000) { %>/<%= city.zip %><% } %>">
+		<span class="city-name"><%= city.name %> <i class="fi-<% if (defcon > 4) { %>info<% } else { %>alert<% } %>"></i></span>
+		<% if (hasConds) { %>
+		<span class="city-conds">
+		<%= city.condition.temperature %> &deg;F <%= city.condition.condition %>
+		</span>
+		<span class="cond-icon-touch cond-set-<%= city.condition.iconPref %> cond-<%= city.condition.icon %>"></span>
+		<% } %>
+		<% if (isCity) { %><span class="city-star" title="<% if (isFav) { %>Remove From<% } else { %>Add To<% } %> Favorite Cities"></span><% } %>
+		<%
+					//removing home button from list now that we have location management on the page - dxf
+					if (isCity && 0) {
+				%><span class="city-home <% if (isHome) { %> active <% }  %>" title="Set this as your Home City"</span><% } %>
+	 </a>
+		</li>
+	<% } %>
+</script>
+<script type="text/template" id="favorites-bar-template">
+	<ul class="no-bullet">
+		<li><a href="/member/membersettings.html?page=favorites" title="Manage Favorites"><i class="fi-star"></i></a></li>
+		<%
+			if(favorites.length > 0) {
+		_.each(favorites, function(city) {
+		print(templateCity({
+		city: city
+		}));
+		});
+		} else {
+		try {
+		if(favCityList) {
+		%>
+		<li><a>Loading favorites...</a></li>
+		<%
+				}} catch(e) {}
+			} %>
+		<%
+			if(favorites.length == 0) {
+			%>
+		<li class="popularCities-label">Popular <br/>Cities</li>
+		<%
+				_.each(popular, function(city, i) {
+					print(templateCity({
+						city: city,
+					}));
+				});
+			}
+			%>
+	</ul>
+</script>
+<script type="text/template" id="favorites-list-template">
+	<label>Popular Cities</label>
+	<ul class="list-recents">
+		<% _.each(popular, function(city) {
+			print(templateCity({
+				city: city
+			}));
+		}); %>
+	</ul>
+</script>
+		<section id="inner-content" class="inner-content" role="main">
+		<div class="row">
+	<div class="columns">
+		<h2 class="has-subnav is-parent">
+		Hurricane and Tropical Cyclones
+		</h2>
+		<ul class="subnav">
+		<li><a href="/hurricane/" >Current Activity</a></li>
+		<li><a href="/hurricane/hurrarchive.asp" class="selected">Hurricane Archive</a></li>
+		</ul>
+		<div class="subnav">
+		<a href="" class="button split radius">
+		Hurricane Archive
+		<span data-dropdown="subnav-dropdown"><i class="fi-list"></i></span>
+		</a>
+		<ul id="subnav-dropdown" class="f-dropdown" data-dropdown-content>
+		<li><a href="/hurricane/" class="">Current Activity</a></li>
+		<li><a href="/hurricane/hurrarchive.asp" class="selected">Hurricane Archive</a></li>
+		</ul>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="small-12 large-8 columns">
+		<h1 class="has-parent">Hurricane Archive</h1>
+		<p>Detailed tracking charts and info for tropical storms since 1851.</p>
+		<dl class="tabs wui-tabs">
+		<dd >
+		<a href="/hurricane/hurrarchive.asp?region=at" >North Atlantic</a>
+		</dd>
+		<dd  class="active"  >
+		<a href="/hurricane/hurrarchive.asp?region=ep" >East Pacific</a>
+		</dd>
+		<dd >
+		<a href="/hurricane/hurrarchive.asp?region=wp" >Western Pacific</a>
+		</dd>
+		<dd >
+		<a href="/hurricane/hurrarchive.asp?region=si" >Indian Ocean</a>
+		</dd>
+		</dl>
+		<br />
+		<table cellspacing="0" cellpadding="0" id="yearList" class="responsive data-table">
+		<thead>
+		<tr>
+		<th>Year</th>
+		<th>Storms</th>
+		<th>Hurricanes</th>
+		<th>Deaths</th>
+		<th>Damage <span class="nb">(millions USD)</span></th>
+		<th>Retired Names</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td><a href="ep2015.asp">2015</td>
+		<td>31</td>
+		<td>16</td>
+		<td>39</td>
+		<td>562</td>
+		<td>
+		1 -		<a href="/hurricane/ep201520.asp">Patricia</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2014.asp">2014</td>
+		<td>23</td>
+		<td>16</td>
+		<td>45</td>
+		<td>1,401</td>
+		<td>
+		1 -		<a href="/hurricane/ep201415.asp">Odile</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2013.asp">2013</td>
+		<td>21</td>
+		<td>9</td>
+		<td>135</td>
+		<td>4,201</td>
+		<td>
+		1 -		<a href="/hurricane/ep201313.asp">Manuel</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2012.asp">2012</td>
+		<td>17</td>
+		<td>10</td>
+		<td>8</td>
+		<td>28</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2011.asp">2011</td>
+		<td>13</td>
+		<td>10</td>
+		<td>42</td>
+		<td>>203</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2010.asp">2010</td>
+		<td>12</td>
+		<td>3</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2009.asp">2009</td>
+		<td>20</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2008.asp">2008</td>
+		<td>18</td>
+		<td>4</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		1 -		<a href="/hurricane/ep20081.asp">Alma</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2007.asp">2007</td>
+		<td>16</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2006.asp">2006</td>
+		<td>25</td>
+		<td>10</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		1 -		<a href="/hurricane/ep20069.asp">Ioke</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2005.asp">2005</td>
+		<td>17</td>
+		<td>5</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2004.asp">2004</td>
+		<td>17</td>
+		<td>5</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2003.asp">2003</td>
+		<td>18</td>
+		<td>4</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2002.asp">2002</td>
+		<td>20</td>
+		<td>8</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		1 -		<a href="/hurricane/ep200217.asp">Kenna</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2001.asp">2001</td>
+		<td>19</td>
+		<td>6</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep2000.asp">2000</td>
+		<td>21</td>
+		<td>4</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1999.asp">1999</td>
+		<td>14</td>
+		<td>4</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1998.asp">1998</td>
+		<td>17</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1997.asp">1997</td>
+		<td>26</td>
+		<td>11</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		2 -		<a href="/hurricane/ep199722.asp">Pauline</a>, <a href="/hurricane/ep199726.asp">Paka</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1996.asp">1996</td>
+		<td>14</td>
+		<td>6</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1995.asp">1995</td>
+		<td>13</td>
+		<td>4</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		1 -		<a href="/hurricane/ep199511.asp">Ismael</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1994.asp">1994</td>
+		<td>24</td>
+		<td>8</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1993.asp">1993</td>
+		<td>20</td>
+		<td>11</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1992.asp">1992</td>
+		<td>34</td>
+		<td>17</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		1 -		<a href="/hurricane/ep199221.asp">Iniki</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1991.asp">1991</td>
+		<td>17</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1990.asp">1990</td>
+		<td>27</td>
+		<td>13</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1989.asp">1989</td>
+		<td>29</td>
+		<td>6</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1988.asp">1988</td>
+		<td>15</td>
+		<td>6</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1987.asp">1987</td>
+		<td>21</td>
+		<td>10</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1986.asp">1986</td>
+		<td>19</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1985.asp">1985</td>
+		<td>25</td>
+		<td>13</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1984.asp">1984</td>
+		<td>21</td>
+		<td>12</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1983.asp">1983</td>
+		<td>24</td>
+		<td>13</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1982.asp">1982</td>
+		<td>30</td>
+		<td>11</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		1 -		<a href="/hurricane/ep198230.asp">Iwa</a>
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1981.asp">1981</td>
+		<td>15</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1980.asp">1980</td>
+		<td>16</td>
+		<td>6</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1979.asp">1979</td>
+		<td>13</td>
+		<td>5</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1978.asp">1978</td>
+		<td>23</td>
+		<td>11</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1977.asp">1977</td>
+		<td>17</td>
+		<td>3</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1976.asp">1976</td>
+		<td>19</td>
+		<td>8</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1975.asp">1975</td>
+		<td>21</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1974.asp">1974</td>
+		<td>25</td>
+		<td>9</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1973.asp">1973</td>
+		<td>12</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1972.asp">1972</td>
+		<td>16</td>
+		<td>8</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1971.asp">1971</td>
+		<td>19</td>
+		<td>12</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1970.asp">1970</td>
+		<td>20</td>
+		<td>4</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1969.asp">1969</td>
+		<td>15</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1968.asp">1968</td>
+		<td>24</td>
+		<td>6</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1967.asp">1967</td>
+		<td>19</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1966.asp">1966</td>
+		<td>15</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1965.asp">1965</td>
+		<td>12</td>
+		<td>1</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1964.asp">1964</td>
+		<td>6</td>
+		<td>1</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1963.asp">1963</td>
+		<td>9</td>
+		<td>4</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1962.asp">1962</td>
+		<td>10</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1961.asp">1961</td>
+		<td>11</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1960.asp">1960</td>
+		<td>8</td>
+		<td>5</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1959.asp">1959</td>
+		<td>15</td>
+		<td>5</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1958.asp">1958</td>
+		<td>13</td>
+		<td>5</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1957.asp">1957</td>
+		<td>14</td>
+		<td>9</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1956.asp">1956</td>
+		<td>12</td>
+		<td>7</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1955.asp">1955</td>
+		<td>6</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1954.asp">1954</td>
+		<td>12</td>
+		<td>4</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1953.asp">1953</td>
+		<td>4</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1952.asp">1952</td>
+		<td>7</td>
+		<td>3</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1951.asp">1951</td>
+		<td>10</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1950.asp">1950</td>
+		<td>8</td>
+		<td>6</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1949.asp">1949</td>
+		<td>8</td>
+		<td>3</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1948.asp">1948</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1947.asp">1947</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1946.asp">1946</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1945.asp">1945</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1944.asp">1944</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1943.asp">1943</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1942.asp">1942</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1941.asp">1941</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1940.asp">1940</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1939.asp">1939</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1938.asp">1938</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1937.asp">1937</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1936.asp">1936</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1935.asp">1935</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1934.asp">1934</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1933.asp">1933</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1932.asp">1932</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1931.asp">1931</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1930.asp">1930</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1929.asp">1929</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1928.asp">1928</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1927.asp">1927</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1926.asp">1926</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1925.asp">1925</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1924.asp">1924</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1923.asp">1923</td>
+		<td>1</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1922.asp">1922</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1921.asp">1921</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1920.asp">1920</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1919.asp">1919</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1918.asp">1918</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1917.asp">1917</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1916.asp">1916</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1915.asp">1915</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1914.asp">1914</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1913.asp">1913</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1912.asp">1912</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1911.asp">1911</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1910.asp">1910</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1909.asp">1909</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1908.asp">1908</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1907.asp">1907</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1906.asp">1906</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1905.asp">1905</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1904.asp">1904</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1903.asp">1903</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1902.asp">1902</td>
+		<td>1</td>
+		<td>1</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1901.asp">1901</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1900.asp">1900</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1899.asp">1899</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1898.asp">1898</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1897.asp">1897</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1896.asp">1896</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1895.asp">1895</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1894.asp">1894</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1893.asp">1893</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1892.asp">1892</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1891.asp">1891</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1890.asp">1890</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1889.asp">1889</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1888.asp">1888</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1887.asp">1887</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1886.asp">1886</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1885.asp">1885</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1884.asp">1884</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1883.asp">1883</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1882.asp">1882</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1881.asp">1881</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1880.asp">1880</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1879.asp">1879</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1878.asp">1878</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1877.asp">1877</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1876.asp">1876</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1875.asp">1875</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1874.asp">1874</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1873.asp">1873</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1872.asp">1872</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1871.asp">1871</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1870.asp">1870</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1869.asp">1869</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1868.asp">1868</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1867.asp">1867</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1866.asp">1866</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1865.asp">1865</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1864.asp">1864</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1863.asp">1863</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1862.asp">1862</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1861.asp">1861</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1860.asp">1860</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1859.asp">1859</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1858.asp">1858</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1857.asp">1857</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1856.asp">1856</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1855.asp">1855</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1854.asp">1854</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1853.asp">1853</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1852.asp">1852</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		<tr>
+		<td><a href="ep1851.asp">1851</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>
+		0
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<p class="mt15"><a href="/tropical/" class="button radius">Current Tropical Activity</a></p>
+	</div>
+	<div class="columns large-4 ">
+	<center class="clearfix">
+		<div id="div-gpt-ad-615639597871654305-2" class="ad-box top-ad-box compact-medium"></div>
+	</center>
+		<div class="wx-module simple">
+	<h3>Hurricane Archive</h3>
+	<div class="content">
+		<h4>All Atlantic Storms (1851-2017)</h4>
+		<select class="wu4-select" onchange="window.open(this.options[this.selectedIndex].value,'_self')" >
+		<option value="">Select a year</option>
+		<option value="http://www.wunderground.com/hurricane/at2016.asp">2016</option>
+		<option value="http://www.wunderground.com/hurricane/at2015.asp">2015</option>
+		<option value="http://www.wunderground.com/hurricane/at2014.asp">2014</option>
+		<option value="http://www.wunderground.com/hurricane/at2013.asp">2013</option>
+		<option value="http://www.wunderground.com/hurricane/at2012.asp">2012</option>
+		<option value="http://www.wunderground.com/hurricane/at2011.asp">2011</option>
+		<option value="http://www.wunderground.com/hurricane/at2010.asp">2010</option>
+		<option value="http://www.wunderground.com/hurricane/at2009.asp">2009</option>
+		<option value="http://www.wunderground.com/hurricane/at2008.asp">2008</option>
+		<option value="http://www.wunderground.com/hurricane/at2007.asp">2007</option>
+		<option value="http://www.wunderground.com/hurricane/at2006.asp">2006</option>
+		<option value="http://www.wunderground.com/hurricane/at2005.asp">2005</option>
+		<option value="http://www.wunderground.com/hurricane/at2004.asp">2004</option>
+		<option value="http://www.wunderground.com/hurricane/at2003.asp">2003</option>
+		<option value="http://www.wunderground.com/hurricane/at2002.asp">2002</option>
+		<option value="http://www.wunderground.com/hurricane/at2001.asp">2001</option>
+		<option value="http://www.wunderground.com/hurricane/at2000.asp">2000</option>
+		<option value="http://www.wunderground.com/hurricane/at1999.asp">1999</option>
+		<option value="http://www.wunderground.com/hurricane/at1998.asp">1998</option>
+		<option value="http://www.wunderground.com/hurricane/at1997.asp">1997</option>
+		<option value="http://www.wunderground.com/hurricane/at1996.asp">1996</option>
+		<option value="http://www.wunderground.com/hurricane/at1995.asp">1995</option>
+		<option value="http://www.wunderground.com/hurricane/at1994.asp">1994</option>
+		<option value="http://www.wunderground.com/hurricane/at1993.asp">1993</option>
+		<option value="http://www.wunderground.com/hurricane/at1992.asp">1992</option>
+		<option value="http://www.wunderground.com/hurricane/at1991.asp">1991</option>
+		<option value="http://www.wunderground.com/hurricane/at1990.asp">1990</option>
+		<option value="http://www.wunderground.com/hurricane/at1989.asp">1989</option>
+		<option value="http://www.wunderground.com/hurricane/at1988.asp">1988</option>
+		<option value="http://www.wunderground.com/hurricane/at1987.asp">1987</option>
+		<option value="http://www.wunderground.com/hurricane/at1986.asp">1986</option>
+		<option value="http://www.wunderground.com/hurricane/at1985.asp">1985</option>
+		<option value="http://www.wunderground.com/hurricane/at1984.asp">1984</option>
+		<option value="http://www.wunderground.com/hurricane/at1983.asp">1983</option>
+		<option value="http://www.wunderground.com/hurricane/at1982.asp">1982</option>
+		<option value="http://www.wunderground.com/hurricane/at1981.asp">1981</option>
+		<option value="http://www.wunderground.com/hurricane/at1980.asp">1980</option>
+		<option value="http://www.wunderground.com/hurricane/at1979.asp">1979</option>
+		<option value="http://www.wunderground.com/hurricane/at1978.asp">1978</option>
+		<option value="http://www.wunderground.com/hurricane/at1977.asp">1977</option>
+		<option value="http://www.wunderground.com/hurricane/at1976.asp">1976</option>
+		<option value="http://www.wunderground.com/hurricane/at1975.asp">1975</option>
+		<option value="http://www.wunderground.com/hurricane/at1974.asp">1974</option>
+		<option value="http://www.wunderground.com/hurricane/at1973.asp">1973</option>
+		<option value="http://www.wunderground.com/hurricane/at1972.asp">1972</option>
+		<option value="http://www.wunderground.com/hurricane/at1971.asp">1971</option>
+		<option value="http://www.wunderground.com/hurricane/at1970.asp">1970</option>
+		<option value="http://www.wunderground.com/hurricane/at1969.asp">1969</option>
+		<option value="http://www.wunderground.com/hurricane/at1968.asp">1968</option>
+		<option value="http://www.wunderground.com/hurricane/at1967.asp">1967</option>
+		<option value="http://www.wunderground.com/hurricane/at1966.asp">1966</option>
+		<option value="http://www.wunderground.com/hurricane/at1965.asp">1965</option>
+		<option value="http://www.wunderground.com/hurricane/at1964.asp">1964</option>
+		<option value="http://www.wunderground.com/hurricane/at1963.asp">1963</option>
+		<option value="http://www.wunderground.com/hurricane/at1962.asp">1962</option>
+		<option value="http://www.wunderground.com/hurricane/at1961.asp">1961</option>
+		<option value="http://www.wunderground.com/hurricane/at1960.asp">1960</option>
+		<option value="http://www.wunderground.com/hurricane/at1959.asp">1959</option>
+		<option value="http://www.wunderground.com/hurricane/at1958.asp">1958</option>
+		<option value="http://www.wunderground.com/hurricane/at1957.asp">1957</option>
+		<option value="http://www.wunderground.com/hurricane/at1956.asp">1956</option>
+		<option value="http://www.wunderground.com/hurricane/at1955.asp">1955</option>
+		<option value="http://www.wunderground.com/hurricane/at1954.asp">1954</option>
+		<option value="http://www.wunderground.com/hurricane/at1953.asp">1953</option>
+		<option value="http://www.wunderground.com/hurricane/at1952.asp">1952</option>
+		<option value="http://www.wunderground.com/hurricane/at1951.asp">1951</option>
+		<option value="http://www.wunderground.com/hurricane/at1950.asp">1950</option>
+		<option value="http://www.wunderground.com/hurricane/at1949.asp">1949</option>
+		<option value="http://www.wunderground.com/hurricane/at1948.asp">1948</option>
+		<option value="http://www.wunderground.com/hurricane/at1947.asp">1947</option>
+		<option value="http://www.wunderground.com/hurricane/at1946.asp">1946</option>
+		<option value="http://www.wunderground.com/hurricane/at1945.asp">1945</option>
+		<option value="http://www.wunderground.com/hurricane/at1944.asp">1944</option>
+		<option value="http://www.wunderground.com/hurricane/at1943.asp">1943</option>
+		<option value="http://www.wunderground.com/hurricane/at1942.asp">1942</option>
+		<option value="http://www.wunderground.com/hurricane/at1941.asp">1941</option>
+		<option value="http://www.wunderground.com/hurricane/at1940.asp">1940</option>
+		<option value="http://www.wunderground.com/hurricane/at1939.asp">1939</option>
+		<option value="http://www.wunderground.com/hurricane/at1938.asp">1938</option>
+		<option value="http://www.wunderground.com/hurricane/at1937.asp">1937</option>
+		<option value="http://www.wunderground.com/hurricane/at1936.asp">1936</option>
+		<option value="http://www.wunderground.com/hurricane/at1935.asp">1935</option>
+		<option value="http://www.wunderground.com/hurricane/at1934.asp">1934</option>
+		<option value="http://www.wunderground.com/hurricane/at1933.asp">1933</option>
+		<option value="http://www.wunderground.com/hurricane/at1932.asp">1932</option>
+		<option value="http://www.wunderground.com/hurricane/at1931.asp">1931</option>
+		<option value="http://www.wunderground.com/hurricane/at1930.asp">1930</option>
+		<option value="http://www.wunderground.com/hurricane/at1929.asp">1929</option>
+		<option value="http://www.wunderground.com/hurricane/at1928.asp">1928</option>
+		<option value="http://www.wunderground.com/hurricane/at1927.asp">1927</option>
+		<option value="http://www.wunderground.com/hurricane/at1926.asp">1926</option>
+		<option value="http://www.wunderground.com/hurricane/at1925.asp">1925</option>
+		<option value="http://www.wunderground.com/hurricane/at1924.asp">1924</option>
+		<option value="http://www.wunderground.com/hurricane/at1923.asp">1923</option>
+		<option value="http://www.wunderground.com/hurricane/at1922.asp">1922</option>
+		<option value="http://www.wunderground.com/hurricane/at1921.asp">1921</option>
+		<option value="http://www.wunderground.com/hurricane/at1920.asp">1920</option>
+		<option value="http://www.wunderground.com/hurricane/at1919.asp">1919</option>
+		<option value="http://www.wunderground.com/hurricane/at1918.asp">1918</option>
+		<option value="http://www.wunderground.com/hurricane/at1917.asp">1917</option>
+		<option value="http://www.wunderground.com/hurricane/at1916.asp">1916</option>
+		<option value="http://www.wunderground.com/hurricane/at1915.asp">1915</option>
+		<option value="http://www.wunderground.com/hurricane/at1914.asp">1914</option>
+		<option value="http://www.wunderground.com/hurricane/at1913.asp">1913</option>
+		<option value="http://www.wunderground.com/hurricane/at1912.asp">1912</option>
+		<option value="http://www.wunderground.com/hurricane/at1911.asp">1911</option>
+		<option value="http://www.wunderground.com/hurricane/at1910.asp">1910</option>
+		<option value="http://www.wunderground.com/hurricane/at1909.asp">1909</option>
+		<option value="http://www.wunderground.com/hurricane/at1908.asp">1908</option>
+		<option value="http://www.wunderground.com/hurricane/at1907.asp">1907</option>
+		<option value="http://www.wunderground.com/hurricane/at1906.asp">1906</option>
+		<option value="http://www.wunderground.com/hurricane/at1905.asp">1905</option>
+		<option value="http://www.wunderground.com/hurricane/at1904.asp">1904</option>
+		<option value="http://www.wunderground.com/hurricane/at1903.asp">1903</option>
+		<option value="http://www.wunderground.com/hurricane/at1902.asp">1902</option>
+		<option value="http://www.wunderground.com/hurricane/at1901.asp">1901</option>
+		<option value="http://www.wunderground.com/hurricane/at1900.asp">1900</option>
+		<option value="http://www.wunderground.com/hurricane/at1899.asp">1899</option>
+		<option value="http://www.wunderground.com/hurricane/at1898.asp">1898</option>
+		<option value="http://www.wunderground.com/hurricane/at1897.asp">1897</option>
+		<option value="http://www.wunderground.com/hurricane/at1896.asp">1896</option>
+		<option value="http://www.wunderground.com/hurricane/at1895.asp">1895</option>
+		<option value="http://www.wunderground.com/hurricane/at1894.asp">1894</option>
+		<option value="http://www.wunderground.com/hurricane/at1893.asp">1893</option>
+		<option value="http://www.wunderground.com/hurricane/at1892.asp">1892</option>
+		<option value="http://www.wunderground.com/hurricane/at1891.asp">1891</option>
+		<option value="http://www.wunderground.com/hurricane/at1890.asp">1890</option>
+		<option value="http://www.wunderground.com/hurricane/at1889.asp">1889</option>
+		<option value="http://www.wunderground.com/hurricane/at1888.asp">1888</option>
+		<option value="http://www.wunderground.com/hurricane/at1887.asp">1887</option>
+		<option value="http://www.wunderground.com/hurricane/at1886.asp">1886</option>
+		<option value="http://www.wunderground.com/hurricane/at1885.asp">1885</option>
+		<option value="http://www.wunderground.com/hurricane/at1884.asp">1884</option>
+		<option value="http://www.wunderground.com/hurricane/at1883.asp">1883</option>
+		<option value="http://www.wunderground.com/hurricane/at1882.asp">1882</option>
+		<option value="http://www.wunderground.com/hurricane/at1881.asp">1881</option>
+		<option value="http://www.wunderground.com/hurricane/at1880.asp">1880</option>
+		<option value="http://www.wunderground.com/hurricane/at1879.asp">1879</option>
+		<option value="http://www.wunderground.com/hurricane/at1878.asp">1878</option>
+		<option value="http://www.wunderground.com/hurricane/at1877.asp">1877</option>
+		<option value="http://www.wunderground.com/hurricane/at1876.asp">1876</option>
+		<option value="http://www.wunderground.com/hurricane/at1875.asp">1875</option>
+		<option value="http://www.wunderground.com/hurricane/at1874.asp">1874</option>
+		<option value="http://www.wunderground.com/hurricane/at1873.asp">1873</option>
+		<option value="http://www.wunderground.com/hurricane/at1872.asp">1872</option>
+		<option value="http://www.wunderground.com/hurricane/at1871.asp">1871</option>
+		<option value="http://www.wunderground.com/hurricane/at1870.asp">1870</option>
+		<option value="http://www.wunderground.com/hurricane/at1869.asp">1869</option>
+		<option value="http://www.wunderground.com/hurricane/at1868.asp">1868</option>
+		<option value="http://www.wunderground.com/hurricane/at1867.asp">1867</option>
+		<option value="http://www.wunderground.com/hurricane/at1866.asp">1866</option>
+		<option value="http://www.wunderground.com/hurricane/at1865.asp">1865</option>
+		<option value="http://www.wunderground.com/hurricane/at1864.asp">1864</option>
+		<option value="http://www.wunderground.com/hurricane/at1863.asp">1863</option>
+		<option value="http://www.wunderground.com/hurricane/at1862.asp">1862</option>
+		<option value="http://www.wunderground.com/hurricane/at1861.asp">1861</option>
+		<option value="http://www.wunderground.com/hurricane/at1860.asp">1860</option>
+		<option value="http://www.wunderground.com/hurricane/at1859.asp">1859</option>
+		<option value="http://www.wunderground.com/hurricane/at1858.asp">1858</option>
+		<option value="http://www.wunderground.com/hurricane/at1857.asp">1857</option>
+		<option value="http://www.wunderground.com/hurricane/at1856.asp">1856</option>
+		<option value="http://www.wunderground.com/hurricane/at1855.asp">1855</option>
+		<option value="http://www.wunderground.com/hurricane/at1854.asp">1854</option>
+		<option value="http://www.wunderground.com/hurricane/at1853.asp">1853</option>
+		<option value="http://www.wunderground.com/hurricane/at1852.asp">1852</option>
+		<option value="http://www.wunderground.com/hurricane/at1851.asp">1851</option>
+		</select>
+		<h4>Named Storms for 2016</h4>
+		<select class="wu4-select" onchange="window.open(this.options[this.selectedIndex].value,'_self')" >
+		<option value="">North Atlantic</option>
+		<option value="/hurricane/atlantic/2016/Alex">Alex</option>
+		<option value="/hurricane/atlantic/2016/Bonnie">Bonnie</option>
+		<option value="/hurricane/atlantic/2016/Colin">Colin</option>
+		<option value="/hurricane/atlantic/2016/Danielle">Danielle</option>
+		<option value="/hurricane/atlantic/2016/Earl">Earl</option>
+		<option value="/hurricane/atlantic/2016/Fiona">Fiona</option>
+		<option value="/hurricane/atlantic/2016/Gaston">Gaston</option>
+		<option value="/hurricane/atlantic/2016/Hermine">Hermine</option>
+		<option value="/hurricane/atlantic/2016/Ian">Ian</option>
+		<option value="/hurricane/atlantic/2016/Julia">Julia</option>
+		<option value="/hurricane/atlantic/2016/Karl">Karl</option>
+		<option value="/hurricane/atlantic/2016/Lisa">Lisa</option>
+		<option value="/hurricane/atlantic/2016/Matthew">Matthew</option>
+		<option value="/hurricane/atlantic/2016/Nicole">Nicole</option>
+		<option value="/hurricane/atlantic/2016/Otto">Otto</option>
+		<option value="">Paula</option>
+		<option value="">Richard</option>
+		<option value="">Shary</option>
+		<option value="">Tobias</option>
+		<option value="">Virginie</option>
+		<option value="">Walter</option>
+		</select>
+		<select class="wu4-select mt15" onchange="window.open(this.options[this.selectedIndex].value,'_self')" >
+		<option value="">East Pacific</option>
+		<option value="">Agatha</option>
+		<option value="">Blas</option>
+		<option value="">Celia</option>
+		<option value="">Darby</option>
+		<option value="">Estelle</option>
+		<option value="">Frank</option>
+		<option value="">Georgette</option>
+		<option value="">Howard</option>
+		<option value="">Ivette</option>
+		<option value="">Javier</option>
+		<option value="">Kay</option>
+		<option value="">Lester</option>
+		<option value="">Madeline</option>
+		<option value="">Newton</option>
+		<option value="">Orlene</option>
+		<option value="">Paine</option>
+		<option value="">Roslyn</option>
+		<option value="">Seymour</option>
+		<option value="">Tina</option>
+		<option value="">Virgil</option>
+		<option value="">Winifred</option>
+		<option value="">Xavier</option>
+		<option value="">Yolanda</option>
+		<option value="">Zeke</option>
+		</select>
+		<h4>Historical Hurricane Statistics</h4>
+		<ul>
+		<li><a href="/hurricane/accumulated_cyclone_energy.asp">Accumulated Cyclone Energy (ACE)</a></li>
+		<li><a href="/hurricane/damage1980.asp">10 Costliest U.S. Weather Disasters since 1980</a></li>
+		<li><a href="/hurricane/deadlyworld.asp">30 Deadliest Tropical Cyclones in History</a></li>
+		<li><a href="/hurricane/deadly.asp">30 Deadliest Atlantic Hurricanes</a></li>
+		<li><a href="/hurricane/usdeadly.asp">30 Deadliest U.S. Hurricanes</a></li>
+		<li><a href="/hurricane/damage.asp">30 Costliest U.S. Hurricanes</a></li>
+		<li><a href="/hurricane/top10.asp">Top 10 Most Active Hurricane Seasons</a></li>
+		<li><a href="/hurricane/earlyseason.asp">The 12 Major May-June-July Hurricanes</a></li>
+		<li><a href="/hurricane/lateseason.asp">The 12 Latest-season Major Hurricanes</a></li>
+		<li><a href="/hurricane/deadly_november.asp">The 20 deadliest late-season Atlantic hurricanes</a></li>
+		<li><a href="/hurricane/record2005.asp">2005 Hurricane Season Records</a></li>
+		<li><a href="/hurricane/at200511.asp">Hurricane Katrina Information Archive</a></li>
+		<li><a href="/hurricane/retired.asp">Retired Hurricane Names</a></li>
+		</ul>
+		<br />
+		<h4>Articles of Interest</h4>
+		<ul>
+		<li><a href="/education/hugo1.asp">Hunting Hugo: The Hurricane Hunters' Wildest Ride</a></li>
+		<li><a href="/hurricane/hunter0.asp">The six hurricane/typhoon hunter missions that never returned to base</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=1420">A new world record wind gust: 253 mph in Australia's Tropical Cyclone Olivia</a></li>
+		<li><a href="/education/shear.asp">Wind shear tutorial</a></li>
+		<li><a href="/hurricane/subtropical.asp">Subtropical storm tutorial</a></li>
+		<li><a href="/hurricane/dustforecast.asp">African dust tutorial</a></li>
+		<li><a href="/hurricane/loopcurrent.asp">Gulf of Mexico ocean heat tutorial</a></li>
+		<li><a href="/blog/Weather456/comment.html?entrynum=383">African wave tutorial</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=1253">Modiki El Ni&ntilde;os and Atlantic hurricane activity</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=1204">The case for a new QuikSCAT satellite</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=1265">Bill Gates takes on hurricanes</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=1169">Is the Atlantic hurricane season getting longer?</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=1266">Late-starting hurricane seasons</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=1174">Looking back at Hurricane Gustav's record 211 mph wind gust</a></li>
+		<li><a href="/hurricane/hugo_days_1_to_3.asp">Remembering Hurricane Hugo 20 years later</a></li>
+		<li><a href="/hurricane/haiti.asp">Haiti's tragic hurricane history</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=1458">Global warming and the frequency of intense Atlantic hurricanes: model results</a></li>
+		<li><a href="/education/jeffmastersblog.asp#11">Complete subject list of Dr. Jeff Masters' blogs on hurricanes</a></li>
+		</ul>
+	</div>
+	<div class="footer">
+		<a href="/hurricane/hurrarchive.asp">Visit the Complete Hurricane Archive</a>
+	</div>
+</div>
+	<center class="clearfix">
+		<div id="div-gpt-ad-615639597871654305-3" class="ad-box compact-medium"></div>
+	</center>
+	</div>
+</div>
+	<center class="clearfix">
+		<div id="div-gpt-ad-615639597871654305-bot" class="ad-box compact-leader no-mobile"></div>
+	</center>
+		</section>
+		<footer class="primary">
+	<div class="row">
+		<div class="small-12 large-6 large-centered columns">
+		<div class="row">
+		<div class="small-12 medium-4 columns">
+		<ul class="no-bullet">
+		<li><a href="/about/our-company" title="About Weather Underground">About</a></li>
+		<li><a href="/about/contact-us" title="Contact Weather Underground">Contact</a></li>
+		<li><a href="http://careers.weather.com/search/?q=&locationsearch=san+francsico?utm_source=careersite&utm_campaign=wunderground" target="_blank" title="Weather Underground Employment Opportunities">Jobs</a></li>
+		<li><a href="http://www.theweathercompany.com/newsroom" target="_blank" title="Weather Underground In The News">News</a></li>
+		</ul>
+		</div>
+		<div class="small-12 medium-4 columns">
+		<ul class="no-bullet">
+		<li><a href="/download" title="Weather Underground Mobile Apps">Our Apps</a></li>
+		<li><a href="/weather/api" title="The Weather API">Weather API</a></li>
+		<li><a href="/fullscreenweather" title="Experience Full Screen Weather">Full Screen Weather</a></li>
+		<li><a href="/weatherstation/" title="Personal Weather Station Network">Personal Weather Stations</a></li>
+		</ul>
+		</div>
+		<div class="small-12 medium-4 columns">
+		<ul class="no-bullet">
+		<li><a href="/sitemap/" title="Weather Underground Site Map">Site Map</a></li>
+		<li><a href="http://help.wunderground.com/" target="_blank" title="Customer Feedback for Weather Underground">Feedback</a></li>
+		<li><a href="/legal" title="Privacy Statement">Privacy</a></li>
+		<li><a href="/ad-choices" class="ad-choices">AdChoices</a></li>
+		</ul>
+		</div>
+		</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="columns copyright-wrap">
+		<p class="copyright">
+		&copy; Copyright 2017 The Weather Company, LLC
+		</p>
+		</div>
+	</div>
+</footer>
+<a class="exit-off-canvas"></a>
+		</div>
+		</div>
+<script>
+	wui.bootstrapped = {
+		iconPath: "i/c/v4",
+		"localtime": {
+  "epoch": null,
+  "pretty": null,
+  "rfc822": null,
+  "iso8601": null,
+  "year": null,
+  "month": null,
+  "day": null,
+  "yday": null,
+  "hour": null,
+  "min": null,
+  "sec": null,
+  "monthname": null,
+  "monthname_short": null,
+  "weekday": null,
+  "weekday_short": null,
+  "ampm": null,
+  "tz_short": null,
+  "tz_long": null,
+  "tz_offset_text": null,
+  "tz_offset_hours": null
+},
+		"usertime": {
+  "epoch": 1503770815,
+  "pretty": "6:06 PM GMT on August 26, 2017",
+  "rfc822": "Sat, 26 Aug 2017 18:06:55 +0000",
+  "iso8601": "2017-08-26T18:06:55+0000",
+  "year": 2017,
+  "month": 8,
+  "day": 26,
+  "yday": 237,
+  "hour": 18,
+  "min": "06",
+  "sec": 55,
+  "monthname": "August",
+  "monthname_short": "Aug",
+  "weekday": "Saturday",
+  "weekday_short": "Sat",
+  "ampm": "PM",
+  "tz_short": "GMT",
+  "tz_long": "UTC",
+  "tz_offset_text": "+0000",
+  "tz_offset_hours": 0.00
+},
+		search: "", //Used for Wundermap autocomplete initialization
+		async: false,
+		https: false,
+		smurfs: false,
+		showUstreamTDU: false,
+		showDailyDownpourTDU: false,
+		showSurveyBanner: false,
+		showVoteHook: false,
+		daysToElection: "-18",
+	 showPrivacyBanner: false,
+		dailyDownpourText: '',
+		showBOM: false,
+		//These scripts are interacted with via scriptUsher.js, located in wui-js
+		scripts: {
+		'amp.premier': {
+		url: '/amp.premier/amp.premier.min.js',
+		done: function() {
+		akamai.amp.AMP.loadDefaults('/amp.premier/amp.premier.xml');
+		}
+		},
+		googlemaps: {
+		url: "//maps.googleapis.com/maps/api/js?sensor=false&client=gme-theweatherchannel&channel=CityPage&libraries=geometry&" +
+		"callback=wui.bootstrapped.scripts.googlemaps.callback",
+		promise: null,
+		callback: function() {
+		wui.bootstrapped.scripts.googlemaps.promise.resolve();
+		}
+		},
+		mapbox: {
+		url: "//api.mapbox.com/mapbox.js/v2.2.2/mapbox.js?",
+		promise: null
+		},
+		mosaicmap: {
+		//url: "//icons.wxug.com/wxmapsdk/1.1.2/wx.js?apiKey=abcdefghijklmnopqrstuvwxyz0123456789&",
+		url: "//icons.wxug.com/scripts/wxmapsdk/1.5.0/wx.js",
+		promise: null
+		},
+		mosaicwundermap: {
+  url: "//icons.wxug.com/scripts/mosaicmap/1.2.2/wui.mosaicmap.min.js",
+		promise: null
+		},
+		infobox: {
+		url: "/scripts/wundermap/src/wu4/stable/gmap_util_lib/infobox_packed.js?v=3.5.20",
+		promise: null
+		},
+		'jquery-cookie': {
+		url: "//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js",
+		promise: null
+		},
+		wundermap: {
+		// SHH TODO: Update SERVERCONFIG, then reference SERVERCONFIG.WunderMap.Version.release
+		url: "//icons.wxug.com/scripts/wundermap/release/8.1.2/wundermap.min.js?v=1.3",
+		promise: null
+		},
+		angularStationselect: {
+		url: '//icons.wxug.com/scripts/angular/1.3.1/angular.min.js',
+  promise: null,
+		done: function() {
+  var stationselect_promise = null;
+  stationselect_promise = wui.usher.loadScript('stationselect');
+		}
+		},
+		stationselect: {
+		url: "//icons.wxug.com/scripts/wui-station-select/0.0.6/wui.ngstationselect.min.js",
+		promise: null,
+  done: function() {
+  var temp = angular.bootstrap(document, ["wu_station_select"]);
+  var count = 0;
+  var timeout = setInterval(function() {
+  count++;
+  if(count>10){
+  clearInterval(timeout);
+  }
+  else if (temp) {
+  angular.element('#station-select-button-ng').triggerHandler('click');
+  clearInterval(timeout);
+  }
+  }, 1000);
+  }
+		},
+		}
+	};
+</script>
+<script>
+	wui.bootstrapped.scripts.wundermap.promise = jQuery.Deferred().resolve();
+	wui.bootstrapped.scripts.googlemaps.promise = jQuery.Deferred().resolve();
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/flot/0.8.2/jquery.flot.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/flot/0.8.2/jquery.flot.time.min.js"></script>
+<script src="//icons.wxug.com/scripts/backbone-nested/1.1.2/backbone-nested.min.js"></script>
+<script src="//icons.wxug.com/scripts/foundation/5.2.2-patch/foundation.equalizer.min.js"></script>
+<script src="//icons.wxug.com/scripts/responsive-tables.js?v=2"></script>
+	<script src="//icons.wxug.com/scripts/pubnation.js"></script>
+	<script src="//icons.wxug.com/scripts/wui-sitewide/2.2.2/wui.sitewide.min.js"></script>
+	<script src="//icons.wxug.com/scripts/wui-backbone/1.7.5/wui.backbone.min.js"></script>
+  <script src="//icons.wxug.com/scripts/jquery.rwdImageMaps.min.js"></script>
+<script>
+wui.bootstrapped.prefs = {
+	'selected_pws': "",
+	'CP_FCTTAB': null,
+	'CP_VAR_dp': null,
+	'CP_VAR_fl': null,
+	'CP_VAR_temp': null,
+	'CP_VAR_cc': null,
+	'CP_VAR_pop': null,
+	'CP_VAR_h': null,
+	'CP_VAR_p': null,
+	'CP_VAR_wspd': null,
+	'CP_VAR_qpf': null,
+	'CP_VAR_precip': null,
+	'EXPFCT': "1",
+	'RADARBOX': null,
+	'RADARBOX_WEBCAM': null,
+	'GMAPTYPE': '',
+	'GMAPUNITS': '',
+	'iconset': '',
+	'LangCode': 'EN',
+	'BrowserCode': 'en-us',
+	'Units': 'english',
+	'raw_string': 'FAVS:1|WXSN:1|PWSOBS:1|WPHO:1|PHOT:1|RADC:0|RADALL:0|HIST0:NULL|GIFT:1|PHOTOTHUMBS:50|',
+  'fodqa' : false,
+	'rapidfire': '10'
+};
+</script>
+<script>
+wui.bootstrapped.ajax_favorites = true; //added for wundermap favorites layer loading
+wui.bootstrapped.citylist = "";
+//wui.bootstrapped.citylist = "";
+</script>
+<script>
+wui.bootstrapped.recents = [];
+</script>
+<script>
+wui.bootstrapped.popular=[
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "New York, NY",
+	"type": "popular",
+	"zmw": "10001.11.99999"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "London, UK",
+	"type": "popular",
+	"zmw": "00000.40.03779"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "Chicago, IL",
+	"type": "popular",
+	"zmw": "60290.1.99999"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "Boston, MA",
+	"type": "popular",
+	"zmw": "02101.1.99999"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "Houston, TX",
+	"type": "popular",
+	"zmw": "77001.1.99999"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "San Francisco, CA",
+	"type": "popular",
+	"zmw": "94101.1.99999"
+		},
+	];
+if(!wui.bootstrapped.favorites) {
+	wui.bootstrapped.popularcities = ["94102.1.99999","10001.11.99999","60290.1.99999","02108.1.99999","77001.1.99999","00000.40.03779"];
+}
+</script>
+<script>
+wui.bootstrapped.ads = {
+	interval: 310000,
+	enableAdRefresh: 1,
+	ugc: false
+};
+</script>
+<script>
+	var pwidget_config = {
+  clean: true,
+  copypaste: false,
+  shareQuote: false,
+		defaults: {
+		afterShare: false,
+  afterShareText: false,
+  shareAgain: false
+		}
+  };
+</script>
+		<!-- Adobe Analytics -->
+	<script type="text/javascript" src="//icons.wxug.com/scripts/omniture-visitorapi.js?v=1.0"></script>
+	<script type="text/javascript" src="//icons.wxug.com/scripts/omniture-appmeasurement.js?v=1.0"></script>
+	<script type="text/javascript">
+		s.pageName = "Tropical: /weather/severe/tropical";
+		s.channel = "Tropical";
+		s.prop5 = "Severe";
+		s.prop2 = "Hurricane and Tropical > HurricaneArchive";
+		// Member Type
+		s.eVar12="non-member";
+		// Ad Blocker
+		s.eVar10 = window.noAdBlocker ? "no" : "yes";
+		// Server
+		s.server = "www.wunderground.com";
+		// Events
+		s.events = "event15";
+		// Campaigns
+		s.campaign = "";
+		var s_code=s.t();if(s_code)document.write(s_code);
+	</script>
+<!-- End Adobe Analytics -->
+<!-- Google Analytics -->
+	<script>
+	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	 ga('create', 'UA-5000463-5', 'auto');
+	 ga('require', 'GTM-M7B5RR2');
+	 ga('send', 'pageview');
+	</script>
+<!-- End Google Analytics -->
+<!-- Begin comScore Tag -->
+	<script>
+	 var _comscore = _comscore || [];
+	 _comscore.push({ c1: "2", c2: "6164429" });
+	 (function() {
+	 var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	 s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	 el.parentNode.insertBefore(s, el);
+	 })();
+	</script>
+	<noscript>
+	 <img src="https://b.scorecardresearch.com/p?c1=2&c2=6164429&cv=2.0&cj=1" style="display:none;" />
+	</noscript>
+<!-- End comScore Tag -->
+<!-- Start Nielsen 6.0 -->
+	<script>
+	 (function () {
+	 var d = new Image(1, 1);
+	 d.onerror = d.onload = function () {
+	 d.onerror = d.onload = null;
+	 };
+	 d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-203014h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+	 })();
+	</script>
+	<noscript>
+	 <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-203014h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" style="display: none;" />
+	</noscript>
+<!-- End Nielsen 6.0 -->
+<!-- Start IMC -->
+	<script src="https://www.sc.pages02.net/lp/static/js/iMAWebCookie.js?13bc5b08-1575280ebee-df4cba773885eb54dfcebd294a039c37&h=www.pages02.net" type="text/javascript"></script>
+<!-- End IMC -->
+<!-- Start AppsFlyer -->
+<img src="https://app.appsflyer.com/id486154808?pid=ios_smart_banner&c=website_wu" height="1" width="1" border="0" style="display: none;" />
+<!-- End AppsFlyer -->
+		<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+		FB.init({
+		appId : wui.facebook.app_id,
+		channelUrl : wui.facebook.channel_url,
+		status : true,
+		cookie : true,
+		xfbml : true,
+		version : 'v2.0'
+		});
+		wui.facebook.on_load_trigger();
+		};
+		(function(d){
+		var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement('script'); js.id = id; js.async = true;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		ref.parentNode.insertBefore(js, ref);
+		}(document));
+	</script>
+	</body>
+</html>
