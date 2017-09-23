@@ -64,3 +64,5 @@ For example, students who have completed the [Johns Hopkins Data Science Special
 * Describe two or more strategies for handling missing values in a data analysis, along with the strengths and weaknesses of each.
 
 "Credible" also means knowing one's limitations, and relating experiences where one has quickly learned new things.
+
+[Return Home](http://bit.ly/2ouaZTF)

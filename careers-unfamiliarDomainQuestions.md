@@ -1,12 +1,5 @@
----
-output: 
-  html_document: 
-    keep_md: yes
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+
 
 People who are new in their data science careers often struggle to find their first data science job. One reason for this is because they often find themselves in interview situations where they are asked questions about problem domains with which they have no previous experience. 
 
