@@ -28,44 +28,45 @@ The most important thing a person can do to enhance her/his career prospects is 
 </tr>
 <td valign="top">1. Collection & Analysis
 </td>
-<td>The ability to acquire data from a variety of sources, manipulate it to remove or mitigate impurities (e.g. missing data), and transform it into a format suitable model building
+<td halign="left">The ability to acquire data from a variety of sources, manipulate it to remove or mitigate impurities (e.g. missing data), and transform it into a format suitable model building
 </td>
 <tr>
 <td valign="top">2. Modeling
 </td>
-<td>The ability to develop hypotheses, select algorithms based on the characteristics of the data available, and build highly accurate predictive models.
+<td  halign="left">The ability to develop hypotheses, select algorithms based on the characteristics of the data available, and build highly accurate predictive models.
 </td></tr>
 <tr>
 <td valign="top">3. Applications
 </td>
-<td>Embed predictive models into systems that are used by customers / end users on an operational basis (e.g. recommending cross-sell up-sell products on an e-commerce website), including the ability to generate predictions at high volume in less than 500 milliseconds.
+<td halign="left">Embed predictive models into systems that are used by customers / end users on an operational basis (e.g. recommending cross-sell up-sell products on an e-commerce website), including the ability to generate predictions at high volume in less than 500 milliseconds.
 </td></tr>
 <tr>
 <td valign="top">4. Operations
 </td>
-<td>Manage, update, and support models in production software applications at an acceptable cost structure with no downtime.
+<td halign="left">Manage, update, and support models in production software applications at an acceptable cost structure with no downtime.
 </td>
 <tr>
 <td valign="top">5. DevOps
 </td>
-<td>Manage versions of code, algorithms, externally sourced components and test cases. Automate the build and deploy of models and and supporting components.
+<td halign="left">Manage versions of code, algorithms, externally sourced components and test cases. Automate the build and deploy of models and and supporting components.
 </td></tr>
 <tr>
 <td valign="top">6. Solution Architecture for Data Science
 </td>
-<td>Assign responsibilities to components in a logical software architecture in a way that enables high performance, manageable cost, fault tolerance, security, and ease of scaling with large volumes of data.
+<td halign="left">Assign responsibilities to components in a logical software architecture in a way that enables high performance, manageable cost, fault tolerance, security, and ease of scaling with large volumes of data.
 </td></tr>
 <tr>
 <td valign="top">7. Software Selection and Supplier Management
 </td>
-<td>Evaluate purchased components ranging from cloud-based infrastructure to machine learning capabilities (e.g. h2o.ai) based on objective evaluation criteria. Define and negotiate contracts with suppliers of purchased components so the costs of applications are manageable as end user usage and data volumes grow.
+<td halign="left">Evaluate purchased components ranging from cloud-based infrastructure to machine learning capabilities (e.g. h2o.ai) based on objective evaluation criteria. Define and negotiate contracts with suppliers of purchased components so the costs of applications are manageable as end user usage and data volumes grow.
 </td></tr>
 <tr>
 <td valign="top">8. Business Value Management
 </td>
-<td>Define a market opportunity for a data science powered application, including one time costs, ongoing costs, and benefits over a 3 - 5 year period. Manage the implementation of the data science powered application to a production deployment, manage its operation and track benefits to ensure they meet or exceed originally estimated values. Add or modify deployed capabilities to increase generation of benefits relative to costs over the lifespan of the application.
-</td></tr>
-</table>
+<td halign="left">Define a market opportunity for a data science powered application, including one time costs, ongoing costs, and benefits over a 3 - 5 year period. Manage the implementation of the data science powered application to a production deployment, manage its operation and track benefits to ensure they meet or exceed originally estimated values. Add or modify deployed capabilities to increase generation of benefits relative to costs over the lifespan of the application.
+</td></tr></table>
+
+
 
 Many of the data science curricula in universities are focused on the first two areas:
 
