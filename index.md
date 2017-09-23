@@ -1,13 +1,6 @@
----
-title: "Data Science Depot: Home"
-output: 
-  html_document: 
-    keep_md: yes
----
+# Data Science Depot: Home
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 
 Data Science Depot is a collection of data science articles I've written as part of my participation in the Data Science Community on Coursera.org.
