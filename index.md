@@ -8,7 +8,11 @@ Data Science Depot is a collection of data science articles I've written as part
 
 Articles in this section cover responses to community members' questions about how to start or grow a career in Data Science.
 
-## Interviewing Techniques
+## Getting Started
+
+1. [Getting Started in Data Science](./gettingstarted.html)
+
+### Interviewing Techniques
 
 1. [Answering Questions about an Unfamiliar Domain](http://bit.ly/2oKYQZS)
 
