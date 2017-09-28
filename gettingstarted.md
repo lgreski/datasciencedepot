@@ -16,7 +16,7 @@ Third, don't be afraid to take a job that is "entry level," even if it requires 
 
 2 - 3 years of significant work as a data scientist will be more valuable to a person's long term career prospects than taking a job that is related to data science but where a person isn't developing a portfolio of completed data science projects.  
 
-The most important thing a person can do to enhance her/his career prospects is to develop relationships in the field where one wants to work. In the U.S., 75% of jobs are found by networking (per a 2015 conversation I had with a consultant at Lee Harrison Hecht, a career coaching service), so the market places a premium on developing relationships before you make a career move.
+The most important thing a person can do to enhance her/his career prospects is to develop relationships in the field where one wants to work. In the U.S., As noted above, 75% of jobs are found by networking, so the market places a premium on developing relationships before you make a career move.
 
 ## Question: What are the key skill areas I must develop to be a viable candidate for data science roles?
 
