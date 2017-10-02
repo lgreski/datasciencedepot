@@ -2,7 +2,7 @@
 
 Students studying data science ask lots of questions about how to break into the field from another line of work.
 
-My primary advice to someone starting out in data science is actually general job seeking advice. Since 75% of jobs are found through people's contact networks (reference: 2015 personal conversation with a consultant at the Lee Harrison Hecht outplacement firm), a beginning data scientist needs to develop a contact network that includes data scientists.
+My primary advice to someone starting out in data science is actually general job seeking advice. Since 75% of jobs are found through people's contact networks (reference: 2015 personal conversation with a consultant at the Lee Harrison Hecht career coaching firm), a beginning data scientist needs to develop a contact network that includes data scientists.
 
 The toughest part of any job search is getting past the keyword-based resume filters employed by many HR departments. Building your network is the best way to get past the automated resume filters.
 
