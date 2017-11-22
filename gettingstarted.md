@@ -10,14 +10,6 @@ Second, consider jobs that are related to data science, but called by other name
 
 Third, don't be afraid to take a job that is "entry level," even if it requires that you take a salary cut relative to your last job. Why? After a year or two of real world experience, you'll be a lot more valuable.
 
-## Question: What are data science career options for an experienced IT professional?
-
-**Answer:** The biggest question is whether one is willing to take an entry level data science job at an entry level salary. Depending on one's current salary and financial flexibility, it may be worthwhile to take an entry level data science job instead of a technical project or engineering manager role.
-
-2 - 3 years of significant work as a data scientist will be more valuable to a person's long term career prospects than taking a job that is related to data science but where a person isn't developing a portfolio of completed data science projects.  
-
-The most important thing a person can do to enhance her/his career prospects is to develop relationships in the field where one wants to work. In the U.S., As noted above, 75% of jobs are found by networking, so the market places a premium on developing relationships before you make a career move.
-
 ## Question: What are the key skill areas I must develop to be a viable candidate for data science roles?
 
 **Answer:** A well-rounded data scientist in a corporate environment will have enough breadth of skill to contribute to a team in at least three of the following eight areas, including a credible story in the first two skill areas.
@@ -64,5 +56,14 @@ For example, students who have completed the [Johns Hopkins Data Science Special
 * Describe two or more strategies for handling missing values in a data analysis, along with the strengths and weaknesses of each.
 
 "Credible" also means knowing one's limitations, and relating experiences where one has quickly learned new things.
+
+## Question: What are data science career options for an experienced IT professional?
+
+**Answer:** The biggest question is whether one is willing to take an entry level data science job at an entry level salary. Depending on one's current salary and financial flexibility, it may be worthwhile to take an entry level data science job instead of a technical project or engineering manager role.
+
+2 - 3 years of significant work as a data scientist will be more valuable to a person's long term career prospects than taking a job that is related to data science but where a person isn't developing a portfolio of completed data science projects.  
+
+The most important thing a person can do to enhance her/his career prospects is to develop relationships in the field where one wants to work. In the U.S., As noted above, 75% of jobs are found by networking, so the market places a premium on developing relationships before you make a career move.
+
 
 [Return Home](http://bit.ly/2ouaZTF)
