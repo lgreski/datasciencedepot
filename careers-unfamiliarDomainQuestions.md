@@ -1,3 +1,8 @@
+---
+output: 
+  html_document: 
+    keep_md: yes
+---
 
 
 
@@ -42,3 +47,5 @@ A candidate could also start his/her answer by acknowledging a lack of experienc
 A data scientist needs to have the confidence that s/he can use the process to competently analyze any problem domain. By knowing the data science process and being able to talk about your specific experiences with it, you can relate your problem solving skills to any domain. This is the essence of data science: lots of messy data, scores of algorithms, and constrained computer resources.  
 
 [Return Home](http://bit.ly/2ouaZTF)
+
+*© 2017 Leonard M. Greski - copying with attribution permitted* 

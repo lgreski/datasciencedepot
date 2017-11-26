@@ -1,3 +1,8 @@
+---
+output: 
+  html_document: 
+    keep_md: yes
+---
 
 
 
@@ -183,3 +188,5 @@ The next set of articles includes general commentary about the course, R program
 
 ## Content for Community Mentors
 1. [Tips for New Community Mentors](http://bit.ly/2bZJniM) A list of tips for new mentors supporting the *Data Science Specialization*, ranging from when to direct students to paid / professional resources such as the *Coursera Learner Help Center*, to how to optimize the value of content that is posted by mentors.
+
+*© 2017 Leonard M. Greski - copying with attribution permitted* 
