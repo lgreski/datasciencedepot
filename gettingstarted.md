@@ -34,7 +34,7 @@ Many of the data science curricula in universities are focused on the first two 
 
 The [Johns Hopkins University Data Science Specialization](http://bit.ly/2czgkI7) on [Coursera](http://bit.ly/2fHV3uo) covers *Applications* in addition to the first two areas.
 
-Generally speaking, the last five categories aren't taught in universities because the PhDs teaching data science don't have sufficient industry experience to teach in these areas.
+Generally speaking, the last five categories aren't taught in universities because many of the PhDs teaching data science don't have sufficient industry experience to teach in these areas.
 
 However, experienced IT professionals have many of these skills, and these are the things one can leverage in an interview to gain access to data science jobs when one is at an entry level in the first two skill areas.
 
@@ -68,4 +68,4 @@ The most important thing a person can do to enhance her/his career prospects is 
 
 [Return Home](http://bit.ly/2ouaZTF)
 
-*© 2017 Leonard M. Greski - copying with attribution permitted* 
+*© 2017 - 2018 Leonard M. Greski - copying with attribution permitted* 
