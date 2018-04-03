@@ -32,7 +32,7 @@ Many of the data science curricula in universities are focused on the first two 
 * Data collection and analysis, and
 * Model building.
 
-The [Johns Hopkins University Data Science Specialization](http://bit.ly/2czgkI7) on [Coursera](http://bit.ly/2fHV3uo) covers *Applications* in addition to the first two areas.
+The [Johns Hopkins University Data Science Specialization](http://bit.ly/2czgkI7) on [Coursera](http://bit.ly/2fHV3uo) offered via [Coursera](http://coursera.org) covers *Applications* in addition to the first two areas.
 
 Generally speaking, the last five categories aren't taught in universities because many of the PhDs teaching data science don't have sufficient industry experience to teach in these areas.
 
@@ -55,7 +55,7 @@ For example, students who have completed the [Johns Hopkins Data Science Special
 * Share a situation where you had to clean messy data. What steps did you take to find the problems, and how did you eliminate or mitigate them?
 * Describe two or more strategies for handling missing values in a data analysis, along with the strengths and weaknesses of each.
 
-"Credible" also means knowing one's limitations, and relating experiences where one has quickly learned new things.
+"Credible" also means knowing one's limitations, and relating experiences where one has quickly learned new things. 
 
 ## Question: What are data science career options for an experienced IT professional?
 
