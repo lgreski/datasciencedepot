@@ -34,6 +34,7 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 
 1. [Statistical Methods in Psychology Journals](http://bit.ly/2fciQWx) Classic 1999  article by [Leland Wilkinson](http://bit.ly/2fciQWx) and the Task Force on Statistical Inference for the American Psychology Association. 
 2. [Ordinal Independent Variables in Linear Regression](http://bit.ly/2fd9f1E) Article by Richard Williams at the University of Notre Dame, making the argument to treat ordinal variables as continuous unless the analysis of linear effects indicates they should be treated as nominal level of measurement.
+3. [Interpreting the Magnitudes of Correlation Coefficients](http://bit.ly/2jziZl7) Article by James Hemphill, validating Cohen's (1988) recommendations via a meta analysis of 380 psychology studies. 
 
 ## Machine Learning
 
@@ -193,4 +194,4 @@ The next set of articles includes general commentary about the course, R program
 ## Content for Community Mentors
 1. [Tips for New Community Mentors](http://bit.ly/2bZJniM) A list of tips for new mentors supporting the *Data Science Specialization*, ranging from when to direct students to paid / professional resources such as the *Coursera Learner Help Center*, to how to optimize the value of content that is posted by mentors.
 
-*© 2017 Leonard M. Greski - copying with attribution permitted* 
+*© 2017 - 2018 Leonard M. Greski - copying with attribution permitted* 
