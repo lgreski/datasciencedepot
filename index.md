@@ -36,6 +36,10 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 2. [Ordinal Independent Variables in Linear Regression](http://bit.ly/2fd9f1E) Article by Richard Williams at the University of Notre Dame, making the argument to treat ordinal variables as continuous unless the analysis of linear effects indicates they should be treated as nominal level of measurement.
 3. [Interpreting the Magnitudes of Correlation Coefficients](http://bit.ly/2jziZl7) Article by James Hemphill, validating Cohen's (1988) recommendations via a meta analysis of 380 psychology studies. 
 
+## Reproducible Research
+
+1. [When the Revolution Came for Amy Cuddy](https://nyti.ms/2FotQXC) 2017 New York Times article about difficulties scientists experienced when trying to replicate the research of Amy Cuddy, Ph.D., a prominent TED speaker whose 2010 study on *power poses*, turned her into an internet celebrity. Since then, questions about the reproducibility of her research sparked a firestorm about statistical practices in social psychology research. 
+
 ## Machine Learning
 
 * [Google Machine Learning Crash Course](http://bit.ly/2HTHN1B): Developed by the engineering education team at Google, the *Machine Learning Crash Course* introduces students to machine learning with the TensorFlow toolkit. The course is based on Python, so some background in Python programming, along with high school algebra, is required. 
