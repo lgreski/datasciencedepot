@@ -55,7 +55,7 @@ The bottom line is that every interview, like every job, is an opportunity. By s
 
 When we see problems as opportunities, it enables us to ask questions that position us to be problem solvers. All companies need more team members who can see problems and simultaneously have the optimism to overcome them.
 
-If you liked this article, I have additional content on data science and careers posted at [Data Science Depot](http://bit.ly/2ouaZTF), and tweet about data science and other topics @lgreski .
+If you liked this article, I have additional content on data science and careers posted at [Data Science Depot](http://bit.ly/2ouaZTF), and tweet about data science and other topics [@lgreski](https://twitter.com/lgreski) .
 
 [Return Home](http://bit.ly/2ouaZTF)
 
