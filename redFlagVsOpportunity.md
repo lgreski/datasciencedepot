@@ -9,7 +9,7 @@ Robinson and Nolis make a strong point that job candidates should evaluate prosp
 
 Another way to look at the red flags reviewed in the article is to view them as opportunities where candidates can make a difference, helping the company improve its results while growing one's skills and experience.
 
-# Simplifying Assumptions
+# Simplifying assumptions
 
 We'll start with some simplifying assumptions to ground the remainder of this article.
 
@@ -17,8 +17,9 @@ We'll start with some simplifying assumptions to ground the remainder of this ar
 2. **No company is "ideal":** My personal experience is that every company has areas of improvement, even the company I founded. Therefore, a good fit between company and candidate occurs when a candidate's strengths help address a company's areas of growth / improvement. <br><br>
 3. **Data science is hard:** As I wrote in [Value of the Johns Hopkins Data Science Specialization](http://bit.ly/2j3EcCn), data science in real life is all about ambiguous problems, messy data, scores of algorithms to consider, and limited computer resources that challenge the scientist to produce actionable results within an acceptable timeframes and cost structures. <br><br>
 4. **People get paid for the "Three Rs:"** Generally speaking, people get paid to manage what I call "the three Rs" of *resources*, *risks*, and *revenue*. A fair amount of data science is related to managing risk -- risk of messy data, risk of insufficient computer resources, risk that models won't have required positive & negative predictive value, etc.
+5. **The primary goal of an interview is to receive an offer:** While it is important for a candidate to assess a prospective company, her/his primary goal is to receive an offer. Especially during a first round of interviews, a candidate should spend more effort establishing credibility than asking questions to evaluate the prospective employer.
 
-# Seeing the Opportunities in "Red Flags"
+# Seeing the opportunities in "red flags"
 
 Given our simplifying assumptions, the interview process is a pattern matching activity: can we match the candidate's skills and strengths to the needs in a company, where the candidate gets meaningful work and rewards in exchange for her/his best effort?
 
@@ -35,16 +36,26 @@ Each red flag discussed in the original article can now be repurposed with a set
 
 ## Red flags on how they value people
 
-1. **A totally non-structured interview process:** How does the organization make decisions about candidates? How does it incorporate data science practices (e.g. objective criteria) in the hiring process? What skills / qualities are valued here, and how might the interviewers observe them if the process is unstructured?<br><br>
-2. **No time for your questions:** <br><br>
-3. **No coding required in the interview:** <br><br>
-4. **No plan for your first few months:** <br><br>
-5. **No support for continuing education:** <br><br>
-6. **Inconsistent answers between interviewers about the role:** <br><br>  
+While I do not interpret the following red flags from the original article as judgments on how a company *values* people, I agree they are useful to assess an organization's processes & sociology. As such, the people flags can also be converted into opportunities to ask questions about these topics.
 
-# Conclusion: Every job is an opportunity to develop character
+1. **A totally non-structured interview process:** How does the organization make decisions about the work? How frequently does it change direction? How does it define the "defintion of done," per lean / agile practice? How does it incorporate data science practices (e.g. objective criteria) in the hiring and other process? What skills / qualities are valued here, and how might the interviewers observe them?<br><br>
+2. **No time for your questions:** Beyond the suggestion noted in the original article, consider adding the following questions. How does the organization allocate time to work? How does the organization reflect on data it has collected and analyzed? How does the organization identify and implement improvements in its practices and processes?<br><br>
+3. **No coding required in the interview:** What practices does the team use to ensure the quality and efficiency of code / solutions developed by the team? What coding examples can I bring to the table to share with the interviewers?<br><br>
+4. **No plan for your first few months:** What structure can I bring to the company to improve predictability of results, based on my past experiences? Who are the key people with whom I need to develop relationships in order to be a productive member of the team? How will you measure success / effectiveness of my work within the first three months? <br><br>
+5. **No support for continuing education:** How do members of the data science team grow their skills at this organization? How have you (hiring manager) developed your skills over the past few years? How do you balance the time spent producing with the need to continouously learn? <br><br>
+6. **Inconsistent answers between interviewers about the role:** Who has decision making authority about the work done by this role? How does the organization surface and resolve conflicts between team members? Across departments? Between leaders? <br><br>  
 
+# Every job is an opportunity to develop skills, relationships, and experiences
 
+The bottom line is that every interview, like every job, is an opportunity. By seeing opportunities in the red flags, a candidate can establish the credibility that earns the right to ask questions of prospective employers. Given that there is no such place as an "ideal" work environment, a job is worth taking if it does the following.
+
+* **Grows my skills:** The job helps / requires me to develop transferrable skills beyond the ones I already have.<br><br>
+* **Develops relationships:** The job enables me to establish relationships with people who are senior to me, where we are able to work on meaningful things together so our relationships move beyond the superficial.<br><br>
+* **Generates compelling experiences:** The work I produce generates measurable benefits to the business and its customers, and these benefits are compelling enough to be worth putting on page one of my résumé.<br><br>
+
+When we see problems as opportunities, it enables us to ask questions that position us to be problem solvers. All companies need more team members who can see problems and simultaneously have the optimism to overcome them.
+
+If you liked this article, I have additional content on data science and careers posted at [Data Science Depot](http://bit.ly/2ouaZTF), and tweet about data science and other topics @lgreski . 
 
 [Return Home](http://bit.ly/2ouaZTF)
 
