@@ -16,7 +16,7 @@ We'll start with some simplifying assumptions to ground the remainder of this ar
 1. **Companies hire on need:** During the interview process, hiring managers are looking to fill specific gaps in their talent base, and are focused on determining whether a candidate fills these gaps. <br><br>
 2. **No company is "ideal":** My personal experience is that every company has areas of improvement, even the company I founded. Therefore, a good fit between company and candidate occurs when a candidate's strengths help address a company's areas of growth / improvement. <br><br>
 3. **Data science is hard:** As I wrote in [Value of the Johns Hopkins Data Science Specialization](http://bit.ly/2j3EcCn), data science in real life is all about ambiguous problems, messy data, scores of algorithms to consider, and limited computer resources that challenge the scientist to produce actionable results within an acceptable timeframes and cost structures. <br><br>
-4. **People get paid for the "Three Rs:"** Generally speaking, people get paid to manage what I call "the three Rs" of *resources*, *risks*, and *revenue*. A fair amount of data science is related to managing risk -- risk of messy data, risk of insufficient computer resources, risk that models won't have required positive & negative predictive value, etc.
+4. **People get paid for the "Three Rs:"** Generally speaking, people get paid to manage what I call "the three Rs" of *resources*, *risks*, and *revenue*. A fair amount of data science is related to managing risk -- risk of messy data, risk of insufficient computer resources, risk that models won't have required positive & negative predictive value, etc.<br><br>
 5. **The primary goal of an interview is to receive an offer:** While it is important for a candidate to assess a prospective company, her/his primary goal is to receive an offer. Especially during a first round of interviews, a candidate should spend more effort establishing credibility than asking questions to evaluate the prospective employer.
 
 # Seeing the opportunities in "red flags"
@@ -55,7 +55,7 @@ The bottom line is that every interview, like every job, is an opportunity. By s
 
 When we see problems as opportunities, it enables us to ask questions that position us to be problem solvers. All companies need more team members who can see problems and simultaneously have the optimism to overcome them.
 
-If you liked this article, I have additional content on data science and careers posted at [Data Science Depot](http://bit.ly/2ouaZTF), and tweet about data science and other topics @lgreski . 
+If you liked this article, I have additional content on data science and careers posted at [Data Science Depot](http://bit.ly/2ouaZTF), and tweet about data science and other topics @lgreski .
 
 [Return Home](http://bit.ly/2ouaZTF)
 
