@@ -15,6 +15,7 @@ Articles in this section cover responses to community members' questions about h
 
 1. [Getting Started in Data Science](./gettingstarted.html)
 2. [Interviewing Techniques: Answering Questions about an Unfamiliar Domain](http://bit.ly/2oKYQZS)
+3. [Interviewing Tips: Red Flags or Opportunities?](http://bit.ly/2MKyMKI) A response to Robinson and Nolis' July 2018 article, [Red Flags in Data Science Interviews](http://bit.ly/2MLRXDO) 
 
 ## Guidelines for Science
 
