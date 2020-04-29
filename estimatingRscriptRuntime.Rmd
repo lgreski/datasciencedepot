@@ -8,7 +8,7 @@ output:
 
 ## Background
 
-Recently a person on [StackOverflow]() asked a question about how to estimate the [runtime of an R script](https://stackoverflow.com/questions/61447471/how-to-estimate-r-script-running-time). She was attempting to produce corelation tests for 60 questions in a survey, using the `corr.test()` function from the `psych` package.
+Recently a person on [StackOverflow](https://bit.ly/35qGOmB) asked a question about how to estimate the [runtime of an R script](https://bit.ly/3d0Qma6). She was attempting to produce corelation tests for 60 questions in a survey, using the `corr.test()` function from the `psych` package.
 
 The answers from each question were coded as 5 point scales from 1 - 5. The input data frame included 8,219 observations. When she ran `corr.test()`, her computer did not complete the analysis after 2 hours. This led her to post a question on Stackoverflow.com, "Is there any method to estimate the R script running time?"
 
@@ -198,7 +198,7 @@ I ran the 9,000 observation data frame through the test, and it took 40 minutes 
     > 2404.175 / 60
     [1] 40.06958
 
-While the both versions of the linear version of the model were more accurate than the [IHME COVID-19 predicted fatalities model](https://covid19.healthdata.org/united-states-of-america) that originally predicted 1,000,000- 2,000,000 fatalities in the United States, it's too inaccurate to help one decide whether to go brew a cup of coffee or go for a 5K run while waiting for `corr.test()` to complete its work. 
+While the both versions of the linear version of the model were more accurate than the [IHME COVID-19 predicted fatalities model](https://bit.ly/2zHo6Lx) that originally predicted as many as [2.2 million fatalities](https://bit.ly/3d2rfnl) in the United States, it's too inaccurate to help one decide whether to go brew a cup of coffee or go for a 5K run while waiting for `corr.test()` to complete its work. 
 
 In contrast, the quadratic model is stunningly accurate in its prediction, where the predicted runtime of 2,418 seconds was within 0.6% of the actual value. 
 
@@ -206,7 +206,7 @@ In contrast, the quadratic model is stunningly accurate in its prediction, where
 
 In the back and forth comments posted on Stack as I developed the models, a question was raised about the relevance of multiple CPU cores in runtime performance when the `corr.test()` function uses a single thread to process the data. 
 
-My tests, as well as performance analyses I have done with R functions that support multithreading (e.g. [Improving Performance of caret::train() with Random Forest](https://github.com/lgreski/datasciencectacontent/blob/master/markdown/pml-randomForestPerformance.md)) indicate that in practice CPUs with similar speed ratings but fewer cores are slower than those with more cores. 
+My tests, as well as performance analyses I have done with R functions that support multithreading (e.g. [Improving Performance of caret::train() with Random Forest](http://bit.ly/2bYtutG)) indicate that in practice CPUs with similar speed ratings but fewer cores are slower than those with more cores. 
 
 In this specific situation where we analyzed the performance of `core.test()`, I ran a second series of tests on an HP Spectre x-360 with an Intel i7-U6500 CPU that also runs at 2.5Ghz. Its processing time degrades faster than that of the Intel i7-4870HQ CPU (also at 2.5Ghz), as illustrated by the following table. 
 
