@@ -7,7 +7,18 @@ output:
 
 
 
-Data Science Depot is a collection of data science articles I've written as part of my participation in the Data Science Community on Coursera.org. I also post references to articles of interest, or content that I've used as supporting material for answers I've provided to students in my role as a Community Mentor in the [Johns Hopkins University Data Science Specialization](http://bit.ly/2czgkI7). 
+Data Science Depot is a collection of data science articles I've written as part of my participation in the Data Science Community on Coursera.org, interactions on Twitter [@lgreski](https://twitter.com/lgreski), and content I've posted on [StackOverflow](https://stackoverflow.com/users/8471931/len-greski) . I also post references to articles of interest, or content that I've used as supporting material for answers I've provided to students in my role as a Community Mentor in the [Johns Hopkins University Data Science Specialization](http://bit.ly/2czgkI7). 
+
+# Recent Articles
+
+<table>
+<title>Recent Articles</title>
+<th>Date</th><th>Article</th>
+<tr><td>April 28, 2020</td><td><a href="./estimatingRscriptRuntime.html">Estimating runtime for an R script</td></tr>
+</table>
+
+
+
 
 ## Data Science Careers
 
