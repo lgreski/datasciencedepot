@@ -4,7 +4,7 @@ output:
     keep_md: yes
 ---
 
-# Etimating the runtime of an R script
+# Estimating the runtime of an R script
 
 ## Background
 
