@@ -13,10 +13,10 @@ Data Science Depot is a collection of data science articles I've written as part
 
 # Recent Articles
 
-<table>
-<th>Date</th><th>Article</th>
-<tr><td>April 28, 2020</td><td><a href="./estimatingRscriptRuntime.html">Estimating runtime for an R script</td></tr>
-</table>
+
+|Date| Article |
+|------------|------------|
+|          28 April 2020|[Estimating Runtime for an R script](./estimatingRscriptRuntime.html)|
 
 
 
