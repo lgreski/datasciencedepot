@@ -50,7 +50,9 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 
 ## Reproducible Research
 
-1. [When the Revolution Came for Amy Cuddy](https://nyti.ms/2FotQXC) 2017 New York Times article about difficulties scientists experienced when trying to replicate the research of Amy Cuddy, Ph.D., a prominent TED speaker whose 2010 study on *power poses*, turned her into an internet celebrity. Since then, questions about the reproducibility of her research sparked a firestorm about statistical practices in social psychology research. 
+1. [When the Revolution Came for Amy Cuddy](https://nyti.ms/2FotQXC) 2017 New York Times article about difficulties scientists experienced when trying to replicate the research of Amy Cuddy, Ph.D., a prominent TED speaker whose 2010 study on *power poses* turned her into an internet celebrity. Since then, questions about the reproducibility of her research sparked a firestorm about statistical practices in social psychology research. 
+2. [Openness and Reproducibility: Insights from a Model-Centric Approach](https://bit.ly/3cV8iDh) Baumgaertner et. al. pre-print article about the use of model-centric approaches (i.e. probability theory and statistics) to the practice of reproducible research. 
+3. [The case for formal methodology in scientific reform])(https://bit.ly/3aTM6Io) *Quis custodiet ipsos custodes?* ...or "who guards the guardians?" In this pre-print article, Berna Devezer et. al. turn the tables on reproducible research advocates, challenging them to stop making the same mistakes and over-generalizations they purport to address.    
 
 ## Machine Learning
 
