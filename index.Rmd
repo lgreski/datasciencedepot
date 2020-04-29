@@ -14,9 +14,9 @@ Data Science Depot is a collection of data science articles I've written as part
 # Recent Articles
 
 
-|Date| Article |
-|------------|------------|
-|          28 April 2020|[Estimating Runtime for an R script](./estimatingRscriptRuntime.html)|
+|Date|   |Article|
+|:---------|---|:---- |
+| 28 April 2020|   |[Estimating Runtime for an R script](./estimatingRscriptRuntime.html)|
 
 
 
