@@ -12,10 +12,10 @@ Data Science Depot is a collection of data science articles I've written as part
 # Recent Articles
 
 <table>
-<title>Recent Articles</title>
 <th>Date</th><th>Article</th>
 <tr><td>April 28, 2020</td><td><a href="./estimatingRscriptRuntime.html">Estimating runtime for an R script</td></tr>
 </table>
+
 
 
 
@@ -50,7 +50,7 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 
 ## Reproducible Research
 
-1. [When the Revolution Came for Amy Cuddy](https://nyti.ms/2FotQXC) 2017 New York Times article about difficulties scientists experienced when trying to replicate the research of Amy Cuddy, Ph.D., a prominent TED speaker whose 2010 study on *power poses* turned her into an internet celebrity. Since then, questions about the reproducibility of her research sparked a firestorm about statistical practices in social psychology research. 
+1. [When the Revolution Came for Amy Cuddy](https://nyti.ms/2FotQXC) 2017 New York Times article about difficulties scientists experienced when trying to replicate the research of Amy Cuddy, Ph.D., a prominent TED speaker whose 2010 study on *power poses*, turned her into an internet celebrity. Since then, questions about the reproducibility of her research sparked a firestorm about statistical practices in social psychology research. 
 
 ## Machine Learning
 
