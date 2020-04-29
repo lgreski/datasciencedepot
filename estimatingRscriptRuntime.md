@@ -198,7 +198,7 @@ I ran the 9,000 observation data frame through the test, and it took 40 minutes 
     > 2404.175 / 60
     [1] 40.06958
 
-While the both versions of the linear version of the model were more accurate than the [IHME COVID-19 predicted fatalities model](https://bit.ly/2zHo6Lx) that originally predicted as many as [2.2 million fatalities](https://bit.ly/3d2rfnl) in the United States, it's too inaccurate to help one decide whether to go brew a cup of coffee or go for a 5K run while waiting for `corr.test()` to complete its work. 
+While the both versions of the linear version of the model were more accurate than the [IHME COVID-19 predicted fatalities model](https://bit.ly/2zHo6Lx) that originally predicted as many as [2.2 million fatalities](https://bit.ly/3d2rfnl) in the United States, it's too inaccurate to help one decide whether to go brew a cup of coffee or go for a 10K run while waiting for `corr.test()` to complete its work. 
 
 In contrast, the quadratic model is stunningly accurate in its prediction, where the predicted runtime of 2,418 seconds was within 0.6% of the actual value. 
 
