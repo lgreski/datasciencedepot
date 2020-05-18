@@ -50,11 +50,13 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 2. [Ordinal Independent Variables in Linear Regression](http://bit.ly/2fd9f1E) Article by Richard Williams at the University of Notre Dame, making the argument to treat ordinal variables as continuous unless the analysis of linear effects indicates they should be treated as nominal level of measurement.
 3. [Interpreting the Magnitudes of Correlation Coefficients](http://bit.ly/2jziZl7) Article by James Hemphill, validating Cohen's (1988) recommendations via a meta analysis of 380 psychology studies. 
 
+
 ## Reproducible Research
 
 1. [When the Revolution Came for Amy Cuddy](https://nyti.ms/2FotQXC) 2017 New York Times article about difficulties scientists experienced when trying to replicate the research of Amy Cuddy, Ph.D., a prominent TED speaker whose 2010 study on *power poses* turned her into an internet celebrity. Since then, questions about the reproducibility of her research sparked a firestorm about statistical practices in social psychology research. 
 2. [Openness and Reproducibility: Insights from a Model-Centric Approach](https://bit.ly/3cV8iDh) Baumgaertner et. al. 2019 pre-print article about the use of model-centric approaches (i.e. probability theory and statistics) to the practice of reproducible research. 
 3. [The case for formal methodology in scientific reform](https://bit.ly/3aTM6Io) *Quis custodiet ipsos custodes?* ...or "who guards the guardians?" In this 2020 pre-print article Berna Devezer et. al. turn the tables on reproducible research advocates, challenging them to stop making the same mistakes and over-generalizations they purport to address.    
+4. [The New Statistics: Why and How](https://bit.ly/3cGYKMh) Article by Geoff Cumming at LaTrobe University that argues for substantial changes in how we conduct research. He advocates for wide adoption of estimation of effecti sizes, confidence intervals, and meta-analysis in order to improve research integrity. 
 
 ## Machine Learning
 
