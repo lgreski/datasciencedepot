@@ -68,4 +68,4 @@ The most important thing a person can do to enhance her/his career prospects is 
 
 [Return Home](http://bit.ly/2ouaZTF)
 
-*© 2017 - 2018 Leonard M. Greski - copying with attribution permitted* 
+*© 2017 - 2020 Leonard M. Greski - copying with attribution permitted* 

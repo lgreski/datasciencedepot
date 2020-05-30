@@ -153,3 +153,8 @@ Finally, for each subdirectory that we extracted above we create subdirectories,
               download.file(paste0("https://web.stanford.edu/~hastie/ElemStatLearn/datasets/",z,y),paste0("./ElemStatLearn/",z,y))
          },x))
     })
+
+
+[Return Home](http://bit.ly/2ouaZTF)
+
+*© 2020 Leonard M. Greski - copying with attribution permitted* 
