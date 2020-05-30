@@ -4,16 +4,10 @@ In early 2020 students in the Johns Hopkins *Practical Machine Learning* course 
 
 <img src="./images/pml-ElemStatLearn01.png">
   
-  Quiz 3 requires data sets from *Elements of Statistical Learning* for two questions:
-  
-  * Question four uses South African Heart Disease data, and
-* Question five uses Deterding's Vowel Recognition data.
 
-Quiz 4 uses Deterding's Vowel Recognition data.
+## How do I obtain the data I need to use with the book?
 
-## How do I obtain the data I need for the quizzes?
-
-As usual, there are multiple ways to do something in R. To obtain the data needed for the *Practical Machine Learning* Quizzes, one can choose from the following alternatives.
+As usual, there are multiple ways to do something in R. To obtain the data that accompanies the book, one can choose from the following alternatives.
 
 1. Access the data from the [Elements of Statistical Learning](https://stanford.io/3gC7nKI) book website
 2. Access the data from the [CRAN Github repository](https://bit.ly/2XfhFIL) of the `ElemStatLearn` package
@@ -93,7 +87,7 @@ Before installing the `ElemStatLearn` package it is important to install any pac
 
 ## Appendix: downloading all data files from ESL website
 
-Using techniques taught in the Johns Hopkins *Getting and Cleaning Data* course, we can parse the HTML page to obtain a list of all the data files associated with the *Elements of Statistical Learning* book, and download them to a local machine.
+We can parse the HTML page for the `datasets` directory on the ESL webserver to obtain a list of all the data files associated with the *Elements of Statistical Learning* book, and download them to a local machine.
 
 We will use the `rvest` package to process the HTML page, convert the table of files to a data frame, and download the files to subdirectory on our local machine.
 
