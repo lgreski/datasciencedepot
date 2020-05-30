@@ -27,9 +27,9 @@ All of the data sets supporting the book can be accessed from the `datasets` sub
   
   We can access the file directly in an R session with `readr::read_csv()`. For example, to load the Deterding Vowel Recognition data, we use the following R code.
 
-library(readr)
-vowel.train <- read_csv("https://web.stanford.edu/~hastie/ElemStatLearn/datasets/vowel.train")
-vowel.test <- read_csv("https://web.stanford.edu/~hastie/ElemStatLearn/datasets/vowel.test")
+    library(readr)
+    vowel.train <- read_csv("https://web.stanford.edu/~hastie/ElemStatLearn/datasets/vowel.train")
+    vowel.test <- read_csv("https://web.stanford.edu/~hastie/ElemStatLearn/datasets/vowel.test")
 
 Any other data set from the ESL website can be loaded into R once you know the name(s) of the files one must download.
 
