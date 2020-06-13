@@ -140,3 +140,9 @@ I proceeded to read the data back into R, using each of the four Excel packages.
 ## Conclusions
 
 The `readxl` package is not only provides a high degree of control for reading a variety of spreadsheet data, but it also performs best on a load test with a large spreadsheet. However, if one is interested in using R to generate Excel spreadsheets, the packages need to be re-evaluated with an objective set of criteria suited to the types of operations used to write, as opposed to read, Excel files. Specifically, the tidyverse software to write Excel files, `writexl` is a very new package and therefore has significantly fewer features than `xlsx`, `openxlsx`, or `XLConnect` that have been available for at least 5 years. 
+
+
+
+[Return Home](http://bit.ly/2ouaZTF)
+
+*© 2020 Leonard M. Greski - copying with attribution permitted* 
