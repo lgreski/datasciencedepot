@@ -12,18 +12,19 @@ Third, don't be afraid to take a job that is "entry level," even if it requires 
 
 ## Question: What are the key skill areas I must develop to be a viable candidate for data science roles?
 
-A well-rounded data scientist in a corporate environment will have enough breadth of skill to contribute to a team in at least three of the following eight areas, including a credible story in the first two skill areas.
+A well-rounded data scientist in a corporate environment will have enough breadth of skill to contribute to a team in at least three of the following nine areas, including a credible story in the first three skill areas.
 
 |Area|Description|
 |------------|-----------|
 |1. Collection & Analysis|The ability to acquire data from a variety of sources, manipulate it to remove or mitigate impurities (e.g. missing data), and transform it into a format suitable model building|
 |2. Modeling|The ability to develop hypotheses, select algorithms based on the characteristics of the data available, and build highly accurate predictive models.|
-|3. Applications|Embed predictive models into systems that are used by customers / end users on an operational basis (e.g. recommending cross-sell up-sell products on an e-commerce website), including the ability to generate predictions at high volume in less than 500 milliseconds.|
-|4. Operations|Manage, update, and support models in production software applications at an acceptable cost structure with no downtime.|
-|5. DevOps|Manage versions of code, algorithms, externally sourced components and test cases. Automate the build and deploy of models and and supporting components.|
-|6. Solution Architecture for Data Science|Assign responsibilities to components in a logical software architecture in a way that enables high performance, manageable cost, fault tolerance, security, and ease of scaling with large volumes of data.|
-|7. Software Selection and Supplier Management|Evaluate purchased components ranging from cloud-based infrastructure to machine learning capabilities (e.g. h2o.ai) based on objective evaluation criteria. Define and negotiate contracts with suppliers of purchased components so the costs of applications are manageable as end user usage and data volumes grow.|
-|8. Business Value Management|Define a market opportunity for a data science powered application, including one time costs, ongoing costs, and benefits over a 3 - 5 year period. Manage the implementation of the data science powered application to a production deployment, manage its operation and track benefits to ensure they meet or exceed originally estimated values. Add or modify deployed capabilities to increase generation of benefits relative to costs over the lifespan of the application.|
+|3. Interpretation|Explain the results from modeling in practical terms, highlighting the substantive significance versus statistical significance. Explain how the techniques used along with their underlying assumptions affect one's ability to generalize modeling conclusions beyond the data used to build a model.|
+|4. Applications|Embed predictive models into systems that are used by customers / end users on an operational basis (e.g. recommending cross-sell up-sell products on an e-commerce website), including the ability to generate predictions at high volume in less than 500 milliseconds.|
+|5. Operations|Manage, update, and support models in production software applications at an acceptable cost structure with no downtime.|
+|6. DevOps|Manage versions of code, algorithms, externally sourced components and test cases. Automate the build and deploy of models and and supporting components.|
+|7. Solution Architecture for Data Science|Assign responsibilities to components in a logical software architecture in a way that enables high performance, manageable cost, fault tolerance, security, and ease of scaling with large volumes of data.|
+|8. Software Selection and Supplier Management|Evaluate purchased components ranging from cloud-based infrastructure to machine learning capabilities (e.g. h2o.ai) based on objective evaluation criteria. Define and negotiate contracts with suppliers of purchased components so the costs of applications are manageable as end user usage and data volumes grow.|
+|9. Business Value Management|Define a market opportunity for a data science powered application, including one time costs, ongoing costs, and benefits over a 3 - 5 year period. Manage the implementation of the data science powered application to a production deployment, manage its operation and track benefits to ensure they meet or exceed originally estimated values. Add or modify deployed capabilities to increase generation of benefits relative to costs over the lifespan of the application.|
 
 
 
