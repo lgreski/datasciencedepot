@@ -1,13 +1,3 @@
----
-title: "Reading Excel Files"
-author: "lg"
-date: "6/13/2020"
-output: 
-  html_document: 
-    keep_md: yes
----
-
-
 
 ## Reading Excel Files: A comparison of R packages
 
