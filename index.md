@@ -14,6 +14,7 @@ Data Science Depot is a collection of data science articles I've written as part
 
 |Date|   |Article|
 |:---------|---|:---- |
+|13 June 2020||[Reading Excel Files](https://bit.ly/3fqT3TB)|
 |30 May 2020|  |[Accessing Data from Elements of Statistical Learning](https://bit.ly/36LN20S)|
 | 28 April 2020|   |[Estimating Runtime for an R script](./estimatingRscriptRuntime.html)|
 
