@@ -62,6 +62,11 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 
 * [Google Machine Learning Crash Course](http://bit.ly/2HTHN1B): Developed by the engineering education team at Google, the *Machine Learning Crash Course* introduces students to machine learning with the TensorFlow toolkit. The course is based on Python, so some background in Python programming, along with high school algebra, is required. 
 
+## Tidy Data
+
+* [Tidy Data Vignette](https://bit.ly/2AJaZuh): Per its opening paragraph, the vignette is a code-heavy and informal version of Hadley Wickham's seminal paper, *Tidy Data*. 
+* [Tidy Data](http://bit.ly/2guNg2K): The version of Wickham's 2013 paper that was published in the *Journal of Statistical Software*. 
+
 # Johns Hopkins Data Science Specialization
 
 Articles in this section are related to the 10 course Data Science Specialiazation that is offered by Johns Hopkins University via Coursera. An analysis of the specialization, [The democratization of data science education](http://bit.ly/2xLCtvX), was published during the summer of 2017. 
