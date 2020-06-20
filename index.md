@@ -69,7 +69,7 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 
 # Johns Hopkins Data Science Specialization
 
-Articles in this section are related to the 10 course Data Science Specialiazation that is offered by Johns Hopkins University via Coursera. An analysis of the specialization, [The democratization of data science education](http://bit.ly/2xLCtvX), was published during the summer of 2017. 
+Articles in this section are related to the 10 course Data Science Specialization that is offered by Johns Hopkins University via Coursera. An analysis of the specialization, [The democratization of data science education](http://bit.ly/2xLCtvX), was published during the summer of 2017. 
 
 ## Course 1: Data Scientist's Toolbox
 
