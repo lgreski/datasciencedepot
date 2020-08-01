@@ -7,7 +7,7 @@ output:
 
 
 
-Data Science Depot is a collection of data science articles I've written as part of my participation in the Data Science Community on Coursera.org, interactions on Twitter @[lgreski](https://twitter.com/lgreski), and content I've posted on [StackOverflow](https://stackoverflow.com/users/8471931/len-greski) . I also post references to articles of interest, or content that I've used as supporting material for answers I've provided to students in my role as a Community Mentor in the [Johns Hopkins University Data Science Specialization](http://bit.ly/2czgkI7). 
+Data Science Depot is a collection of data science articles I've written as part of my participation in the Data Science Community on Coursera.org, interactions on Twitter @[lgreski](https://twitter.com/lgreski), and content I've posted on [StackOverflow](https://stackoverflow.com/users/8471931/len-greski). I also post references to articles of interest, or content that I've used as supporting material for answers I've provided to students in my role as a Community Mentor in the [Johns Hopkins University Data Science Specialization](http://bit.ly/2czgkI7). 
 
 # Recent Articles
 
@@ -49,6 +49,7 @@ Content in this section is related to Armstrong (2016) et. al. paper and present
 1. [Statistical Methods in Psychology Journals](http://bit.ly/2fciQWx) Classic 1999  article by [Leland Wilkinson](http://bit.ly/2fciQWx) and the Task Force on Statistical Inference for the American Psychology Association. 
 2. [Ordinal Independent Variables in Linear Regression](http://bit.ly/2fd9f1E) Article by Richard Williams at the University of Notre Dame, making the argument to treat ordinal variables as continuous unless the analysis of linear effects indicates they should be treated as nominal level of measurement.
 3. [Interpreting the Magnitudes of Correlation Coefficients](http://bit.ly/2jziZl7) Article by James Hemphill, validating Cohen's (1988) recommendations via a meta analysis of 380 psychology studies. 
+4. [Statistical Paradises and Paradoxes](https://bit.ly/39Mwjfn) Article by Xiao-Li Meng that argues big data is not a good substitute for random sampling, and paradoxically is more likely to produce biased results than a truly random sample. 
 
 
 ## Reproducible Research
