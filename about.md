@@ -1,6 +1,6 @@
-## Len Greski 
+## About Len 
 
-<img src="https://raw.githubusercontent.com/lgreski/dsdepot/master/assets/img/lg-photo.jpg" align="left" hspace="10" /> Leonard Greski currently serves as Vice President, Technology at Travelport, the partner of choice for travel's game changers.
+<img src="https://raw.githubusercontent.com/lgreski/dsdepot/master/assets/img/lg-photo.jpg" align="left" hspace="20" /> Leonard Greski currently serves as Vice President, Technology at Travelport, the partner of choice for travel's game changers.
 
 Len joined Travelport in December 2015 and currently leads Solution Engineering and Platform Architecture within Global Technology Services. His teams are responsible for the engineering delivery of Travelport’s supplier connections, middleware services, and the cloud-based platform for Travelport's next generation application programming interface products based on the [Open Travel Alliance 2.0 specification](https://opentravel.org). The products developed by Len's team process hundreds of millions of requests and more than 1 terabyte of data daily.
 
