@@ -74,7 +74,7 @@ This set of articles is relevant for what is currently called the [replication c
 
 These articles are related to the 10 course Data Science Specialization that is offered by Johns Hopkins University via Coursera. An analysis of the specialization, [The democratization of data science education](http://bit.ly/2xLCtvX), was published during the summer of 2017. 
 
-The content covers all ten courses in the Specialization, from *The Data Scientist's Toolbox* to the *Capstone* course, and is indexed on my JHU DSS [Community Mentor Github repository](http://bit.ly/2basuUp). 
+The content covers all ten courses in the Specialization, from *The Data Scientist's Toolbox* to the *Capstone* course, and is indexed on my JHU DSS [Community Mentor Github repository](http://bit.ly/2l3ZhOy). 
 
 
 
