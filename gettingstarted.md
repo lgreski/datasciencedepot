@@ -52,7 +52,7 @@ For example, students who have completed the [Johns Hopkins Data Science Special
 * What does the assumption of homoskedacity mean? How does one determine whether this assumption is valid for an ordinary least squares model?
 * How does one interpret the R squared in a regression model?
 * Why would we conduct an analysis of variance prior to individual comparisons of means?
-* Questions about one or more programming languages, such as R, Python, SAS, Stata, SQL, etc.
+* Questions about one or more programming languages or statistical packages such as R, Python, SAS, Stata, SQL, etc.
 * Share a situation where you had to clean messy data. What steps did you take to find the problems, and how did you eliminate or mitigate them?
 * Describe two or more strategies for handling missing values in a data analysis, along with the strengths and weaknesses of each.
 
