@@ -448,4 +448,6 @@ As expected, elimination of the thousands of unnecessary calls to `rbinom()` rad
 
 Given that our prior solution ran in 217 seconds, performance of the optimized version is really impressive. Now we have a solution that not only generates accurate Monte Carlo simulations of Bernoulli trials, but it's also very fast.
 
+[Return Home](http://bit.ly/2ouaZTF)
+
   [1]: https://i.stack.imgur.com/cIdZY.png
