@@ -218,7 +218,7 @@ Therefore, we conclude that our simulator appears to be generating valid results
 
 ## Simulating multiple p-values for a given sample size
 
-Next, we'll vary the probability values to see the percentage coverage for 10,000 samples of 5 observations. Since the statistics literature such as [Sauro and Lewis, 2005](https://measuringu.com/wp-content/uploads/2017/07/sauro-lewisHFES.pdf) tells us that Wald confidence intervals have poor coverage for very low and very high p-values, we've added an argument to calculate Adjusted Wald scores. We'll set this argument to `FALSE` for the time being.
+Next, we'll vary the probability values to see the percentage coverage for 10,000 samples of 5 observations. Since the statistics literature such as [Sauro and Lewis, 2005](./references/EstimatingCompletionRatesSauro-Lewis.pdf) tells us that Wald confidence intervals have poor coverage for very low and very high p-values, we've added an argument to calculate Adjusted Wald scores. We'll set this argument to `FALSE` for the time being.
 
     p_val_simulations <- lapply(c(0.01,0.1,0.4,.5,.8),function(p_val){
          aSim <- lapply(1:10000,function(x,p_value,sample_size,z_val,adjWald){
