@@ -17,7 +17,6 @@ More information about Len is available on the [About](https://bit.ly/3kPEgpf) p
 
 |Date|   |Article|
 |:---------|---|:---- |
-|27 November 2020||[Monte Carlo Simulation of Bernoulli Trials](https://lgreski.github.io/datasciencedepot/monteCarloSimulationOfBernoulliTrials)|
 |16 August 2020||[R Objects, S Objects, and Lexical Scoping](https://lgreski.github.io/datasciencedepot/rObjectsSObjectsAndLexicalScoping)|
 |13 June 2020||[Reading Excel Files](https://bit.ly/3fqT3TB)|
 |30 May 2020|  |[Accessing Data from Elements of Statistical Learning](https://bit.ly/36LN20S)|
@@ -83,4 +82,4 @@ The content covers all ten courses in the Specialization, from *The Data Scienti
 
 
 
-*© 2017 - 2020 Leonard M. Greski - copying with attribution permitted* 
+*© 2017 - 2022 Leonard M. Greski - copying with attribution permitted* 

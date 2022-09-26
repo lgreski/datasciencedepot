@@ -32,4 +32,4 @@ Content on Data Science Depot is a personal blog, and as such any opinions expre
 
 [Return Home](http://bit.ly/2ouaZTF)
 
-*© 2020 Leonard M. Greski - all rights reserved*
+*© 2020 - 2022 Leonard M. Greski - all rights reserved*
