@@ -227,4 +227,4 @@ As we can see from the table, the i7-U6500 is 22.5% slower than the i7-4870HQ at
 
 [Return Home](http://bit.ly/2ouaZTF)
 
-*© 2020 Leonard M. Greski - copying with attribution permitted*
+*© 2020 - 2023 Leonard M. Greski - copying with attribution permitted*

@@ -133,4 +133,4 @@ The `readxl` package is not only provides a high degree of control for reading a
 
 [Return Home](http://bit.ly/2ouaZTF)
 
-*© 2020 Leonard M. Greski - copying with attribution permitted* 
+*© 2020 - 2023 Leonard M. Greski - copying with attribution permitted* 

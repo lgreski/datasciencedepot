@@ -82,4 +82,4 @@ The content covers all ten courses in the Specialization, from *The Data Scienti
 
 
 
-*© 2017 - 2022 Leonard M. Greski - copying with attribution permitted* 
+*© 2017 - 2023 Leonard M. Greski - copying with attribution permitted* 
