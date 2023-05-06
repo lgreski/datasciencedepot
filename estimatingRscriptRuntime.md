@@ -8,7 +8,7 @@ output:
 
 ## Background
 
-Recently a person on [StackOverflow](https://bit.ly/35qGOmB) asked a question about how to estimate the [runtime of an R script](https://bit.ly/3d0Qma6). She was attempting to produce corelation tests for 60 questions in a survey, using the `corr.test()` function from the `psych` package.
+Recently a person on [Stack Overflow](https://bit.ly/35qGOmB) asked a question about how to estimate the [runtime of an R script](https://bit.ly/3d0Qma6). She was attempting to produce correlation tests for 60 questions in a survey, using the `corr.test()` function from the `psych` package.
 
 The answers from each question were coded as 5 point scales from 1 - 5. The input data frame included 8,219 observations. When she ran `corr.test()`, her computer did not complete the analysis after 2 hours. This led her to post a question on Stackoverflow.com, "Is there any method to estimate the R script running time?"
 
@@ -64,7 +64,7 @@ We can quickly fit a linear model to these timings and use it to predict the run
     fit <- lm(time ~ observations, data = timeData)
     summary(fit)
 
-The summary indictes that a linear model appears to be a good fit with the data, recognizing we used a small number of observations as input to the model.
+The summary indicates that a linear model appears to be a good fit with the data, recognizing we used a small number of observations as input to the model.
 
     > summary(fit)
 
