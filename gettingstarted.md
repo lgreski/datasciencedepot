@@ -25,19 +25,21 @@ A well-rounded data scientist in a corporate environment will have enough breadt
 |7. Solution Architecture for Data Science|Assign responsibilities to components in a logical software architecture in a way that enables high performance, manageable cost, fault tolerance, security, and ease of scaling with large volumes of data.|
 |8. Software Selection and Supplier Management|Evaluate purchased components ranging from cloud-based infrastructure to machine learning capabilities (e.g. h2o.ai) based on objective evaluation criteria. Define and negotiate contracts with suppliers of purchased components so the costs of applications are manageable as end user usage and data volumes grow.|
 |9. Business Value Management|Define a market opportunity for a data science powered application, including one time costs, ongoing costs, and benefits over a 3 - 5 year period. Manage the implementation of the data science powered application to a production deployment, manage its operation and track benefits to ensure they meet or exceed originally estimated values. Add or modify deployed capabilities to increase generation of benefits relative to costs over the lifespan of the application.|
+10. Work Management |The ability to take an ambiguous problem and break it down into small work items with clearly defined acceptance criteria, and then move the smaller work items through a series of steps to complete the work and verify that the completed work meets stated acceptance criteria. |
 
 
 
 Many of the data science curricula in universities are focused on the first two areas:
 
-* Data collection and analysis, and
-* Model building.
+* Data collection and analysis, 
+* Model building, and
+* Interpretation of results.
 
-The [Johns Hopkins University Data Science Specialization](http://bit.ly/2czgkI7) on [Coursera](http://bit.ly/2fHV3uo) offered via [Coursera](http://coursera.org) covers *Applications* in addition to the first two areas.
+The [Johns Hopkins University Data Science Specialization](http://bit.ly/2czgkI7) on [Coursera](http://bit.ly/2fHV3uo) offered via [Coursera](http://coursera.org) covers *Applications* in addition to the first three areas.
 
-Generally speaking, the last five categories aren't taught in universities because many of the PhDs teaching data science don't have sufficient industry experience to teach in these areas.
+Generally speaking, the last six categories aren't taught in universities because many of the PhDs teaching data science don't have sufficient industry experience to teach in these areas, especially *Work Management* and *Business Value Management*.  
 
-However, experienced IT professionals have many of these skills, and these are the things one can leverage in an interview to gain access to data science jobs when one is at an entry level in the first two skill areas.
+However, experienced technology professionals have many of these skills, and these are the things one can leverage in an interview to gain access to data science jobs when one is at an entry level in the first three skill areas.
 
 
 ## Question: referring to the prior question, what is a "credible" level of skill?
@@ -51,7 +53,7 @@ For example, students who have completed the [Johns Hopkins Data Science Special
 * When does the gradient boosting algorithm deliver a lower error rate versus a random forest?
 * What does the assumption of homoskedacity mean? How does one determine whether this assumption is valid for an ordinary least squares model?
 * How does one interpret the R squared in a regression model?
-* Why would we conduct an analysis of variance prior to individual comparisons of means?
+* Why would one conduct an analysis of variance prior to individual comparisons of means?
 * Questions about one or more programming languages or statistical packages such as R, Python, SAS, Stata, SQL, etc.
 * Share a situation where you had to clean messy data. What steps did you take to find the problems, and how did you eliminate or mitigate them?
 * Describe two or more strategies for handling missing values in a data analysis, along with the strengths and weaknesses of each.
