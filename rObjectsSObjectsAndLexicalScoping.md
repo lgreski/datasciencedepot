@@ -105,4 +105,4 @@ Wikipedia.org <a href="https://en.wikipedia.org/wiki/Closure_(computer_programmi
 
 [Return Home](http://bit.ly/2ouaZTF)
 
-*© 2020 Leonard M. Greski - all rights reserved*
+*© 2020 - 2024 Leonard M. Greski - all rights reserved*

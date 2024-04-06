@@ -48,4 +48,4 @@ A data scientist needs to have the confidence that s/he can use the process to c
 
 [Return Home](http://bit.ly/2ouaZTF)
 
-*© 2017 Leonard M. Greski - copying with attribution permitted* 
+*© 2017 - 2024 Leonard M. Greski - copying with attribution permitted* 
