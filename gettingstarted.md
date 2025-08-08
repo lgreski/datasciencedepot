@@ -12,7 +12,7 @@ Third, don't be afraid to take a job that is "entry level," even if it requires 
 
 ## Question: What are the key skill areas I must develop to be a viable candidate for data science roles?
 
-A well-rounded data scientist in a corporate environment will have enough breadth of skill to contribute to a team in at least three of the following nine areas, including a credible story in the first three skill areas.
+A well-rounded data scientist in a corporate environment will have enough breadth of skill to contribute to a team in at least three of the following eleven areas, including a credible story in the first three skill areas.
 
 |Area|Description|
 |------------|-----------|
